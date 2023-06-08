@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+#page-wrap {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* stylování BM, aby se objevil jen při mobilní verzi-FUNGUJE */
+.burgerMenu-container {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .burgerMenu-container {
+        display: block;
+        
+    }
+}
+
+/* tady část pro PC verzi */
+.navbar-container {
+    display: block;
+}
+@media (max-width: 600px) {
+    .navbar-container {
+    display: none;
+    }
+}
