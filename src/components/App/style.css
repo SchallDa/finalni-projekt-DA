@@ -1,7 +1,5 @@
-.wool-image {
-    background-image: url("../../img/wool.jpg");
-    background-position: center;
-    background-size: cover;
+.woolen-fiber {
     height: 50px;
+    width: 50px;
     
 }

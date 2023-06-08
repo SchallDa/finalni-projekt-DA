@@ -4,6 +4,8 @@ import { createBrowserRouter, RouterProvider, Link, Outlet } from 'react-router-
 import { ClothesMenu} from '../../pages/ClothesMenu';
 import { ProjectInfo } from '../../pages/ProjectInfo';
 import { ErrorPage } from '../../pages/ErrorPage';
+import wool from "../../img/wool.jpg"
+import './style.css';
 
 export const App = () => {
     return (
@@ -12,8 +14,8 @@ export const App = () => {
                 <Header />
                 
             </div>
-            <div className='wool-image'></div>
-            {/* proc se nechce vložit obrázek?  */}
+            <img className="woolen-fiber" src={wool} alt="woolen_fiber" />
+            
         
         </>
     );
