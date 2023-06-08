@@ -15,7 +15,6 @@
 @media (max-width: 600px) {
     .burgerMenu-container {
         display: block;
-        
     }
 }
 
@@ -23,8 +22,9 @@
 .navbar-container {
     display: block;
 }
+
 @media (max-width: 600px) {
     .navbar-container {
-    display: none;
+        display: none;
     }
 }
