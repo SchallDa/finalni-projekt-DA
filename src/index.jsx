@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client';
 import { App } from './components/App';
 import './style.css';
 import { createBrowserRouter, RouterProvider, } from 'react-router-dom';
-import { VyhledatOdev } from './pages/VyhledatOdev';
-import { OProjektu } from './pages/OProjektu';
+import { ClothesMenu } from './pages/ClothesMenu';
+import { ProjectInfo } from './pages/ProjectInfo';
 import { ErrorPage } from './pages/ErrorPage';
 //  const src=()=> {
 //   return (
@@ -20,11 +20,11 @@ const router = createBrowserRouter([
       children: [
           {
               path: '/oprojektu',
-              element: <OProjektu />,
+              element: <ProjectInfo />,
           },
           {
               path: '/vyhledatodev',
-              element: <VyhledatOdev />,
+              element: <ClothesMenu />,
           },
 
       ],

@@ -1,11 +1,11 @@
 import React from "react";
 import './style.css';
 
-export const OProjektu =()=> {
+export const ClothesMenu =()=> {
     return (
         <>
         <div className="container"> 
-        text o projektu
+        stránka s vyhledáváním oděvů
         </div>
         </>
     )

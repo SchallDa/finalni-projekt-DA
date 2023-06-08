@@ -1,11 +1,11 @@
 import React from "react";
 import './style.css';
 
-export const VyhledatOdev =()=> {
+export const ProjectInfo =()=> {
     return (
         <>
         <div className="container"> 
-        stránka s vyhledáváním oděvů
+        text o projektu
         </div>
         </>
     )
