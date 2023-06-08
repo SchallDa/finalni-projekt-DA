@@ -8,16 +8,10 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* mob.verze:  */
 .container {
-  max-width: 26rem;
+  max-width: 600px;
   margin-right: auto;
   margin-left: auto;
+  background-color: #333230;
 }
-
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
-}
-

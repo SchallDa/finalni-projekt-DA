@@ -12,13 +12,16 @@ import { ErrorPage } from '../../pages/ErrorPage';
 import wool from '../../img/wool.jpg';
 import './style.css';
 
+import { HomePage } from '../../pages/HomePage';
+
 export const App = () => {
   return (
     <>
       <div className="container">
         <Header />
       </div>
-      <img className="woolen-fiber" src={wool} alt="woolen_fiber" />
+      {/* <img className="woolen-fiber" src={wool} alt="woolen_fiber" /> */}
+      <HomePage />
     </>
   );
 };
