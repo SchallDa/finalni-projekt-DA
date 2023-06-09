@@ -1,0 +1,39 @@
+h2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.clothesMenu__intro {
+  text-align: center;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 120%;
+  line-height: 150%;
+}
+
+.clothesMenu__image {
+  width: 8rem;
+  height: 8rem;
+  background-image: url(./img/coat.png);
+  background-size: contain;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+@media (min-width: 600px) {
+  .clothesMenu__image {
+    font-size: 24px;
+    max-width: 70%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+}
