@@ -1,11 +1,9 @@
 import React from 'react';
 import './style.css';
 
-
 export const HomePage = () => {
   return (
     <>
-    
       <div className="container">
         <div className="main__image"></div>
         <p className="main__intro">

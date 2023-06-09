@@ -1,22 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*,
+body,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 * {
   box-sizing: border-box;
 }
 
+
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #333230;
+  color: #fff;
+}
+
+h1 {
+  color: #E55670;
+  font-size: 40px;
 }
 
 /* mob.verze:  */
-.container {
-  max-width: 600px;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: #333230;
+
+@media (max-width: 600px) {
+  #app {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 30px;
+
+  }
 }
-#app {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+
+/* desktop verze */
+
+@media (min-width: 600px) {
+  #app {
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 50px;
+  }
 }
