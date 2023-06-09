@@ -29,11 +29,11 @@ const router = createBrowserRouter([
       element: <HomePage />,
       },
       {
-        path: '/oprojektu',
+        path: '/o-projektu',
         element: <ProjectInfo />,
       },
       {
-        path: '/vyhledatodev',
+        path: '/vyhledat-odev',
         element: <ClothesMenu />,
       },
       

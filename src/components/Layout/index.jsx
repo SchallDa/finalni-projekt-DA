@@ -7,8 +7,8 @@ export const Layout = () => {
         <> 
         <nav>
           <Link to="/">Domů</Link>
-          <Link to="/oprojektu">O projektu</Link>
-          <Link to="/vyhledatodev">Vyhledat oděv</Link>
+          <Link to="/o-projektu">O projektu</Link>
+          <Link to="/vyhledat-odev">Vyhledat oděv</Link>
         </nav>
         </>
     )
