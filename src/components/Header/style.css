@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 #page-wrap {
     padding-bottom: 10px;
     padding-top: 10px;
@@ -15,7 +16,6 @@
 @media (max-width: 600px) {
     .burgerMenu-container {
         display: block;
-        
     }
 }
 
@@ -23,8 +23,25 @@
 .navbar-container {
     display: block;
 }
+
 @media (max-width: 600px) {
     .navbar-container {
-    display: none;
+        display: none;
     }
+}
+
+
+@media (min-width: 600px) {
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: column;
+    align-items: center;
+    margin-top: 4rem; */
+    }
+
+
+
+
 }
