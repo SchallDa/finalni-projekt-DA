@@ -6,7 +6,7 @@ import { ClothesMenu } from './pages/ClothesMenu';
 import { ProjectInfo } from './pages/ProjectInfo';
 import { ErrorPage } from './pages/ErrorPage';
 import { HomePage } from './pages/HomePage';
-import { Layout } from './components/Layout';
+import { App } from './components/App';
 import { Header } from './components/Header';
 
 //  export const App = () => {
@@ -21,7 +21,7 @@ import { Header } from './components/Header';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Layout />,
+    element: <App />,
     errorElement: <ErrorPage />,
     children: [
       {
@@ -36,6 +36,7 @@ const router = createBrowserRouter([
         path: '/vyhledatodev',
         element: <ClothesMenu />,
       },
+      
 
     ],
   },
