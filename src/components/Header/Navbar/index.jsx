@@ -6,11 +6,7 @@ import { Layout } from '../../Layout';
 export const Navbar = () => {
   return (
     <>
-      <nav>
-            <Link to="/">Domů</Link>
-            <Link to="/oprojektu">O projektu</Link>
-            <Link to="/vyhledatodev">Vyhledat oděv</Link>
-        </nav>
+      <Layout/>
     </>
   );
 };
