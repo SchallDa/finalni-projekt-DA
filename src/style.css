@@ -27,14 +27,15 @@ h1 {
 
 /* mob.verze:  */
 
-@media (max-width: 600px) {
-  #app {
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-top: 30px;
 
-  }
+#app {
+
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 30px;
 }
+
+
 
 /* desktop verze */
 

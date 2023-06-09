@@ -1,9 +1,35 @@
-/* .main__image {
-  background-image: ;
-} */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .main__intro {
   text-align: center;
-  color: #fff;
-  font-size: 16px;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 120%;
+  line-height: 150%;
+}
+
+.main__image {
+  width: 10rem;
+  height: 10rem;
+  background-image: url(./img/wool.jpg);
+  background-size: contain;
+  border-radius: 50%;
+  align-self: center;
+  margin: 3rem;
+}
+
+
+@media (min-width: 600px) {
+  .main__intro {
+    font-size: 24px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
