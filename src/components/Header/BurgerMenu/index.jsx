@@ -2,6 +2,7 @@ import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import { Link, Outlet } from 'react-router-dom';
 import './style.css';
+import { Layout } from '../../Layout';
 
 export const BurgerMenu = () => {
   return (
@@ -10,11 +11,13 @@ export const BurgerMenu = () => {
     // zatím BM neumí odkazovat na jednotlivé stránky
     <>
       <Menu>
-        <Link to="/">Domů</Link>
-        <Link to="/oprojektu">O projektu</Link>
-        <Link to="/vyhledatodev">Vyhledat oděv</Link>
+        <nav>
+          <Link to="/">Domů</Link>
+          <Link to="/oprojektu">O projektu</Link>
+          <Link to="/vyhledatodev">Vyhledat oděv</Link>
+        </nav>
       </Menu>
-      <Outlet />
+      {/* <Outlet /> */}
     </>
   );
 };

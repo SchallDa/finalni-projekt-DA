@@ -9,7 +9,7 @@ import { Navbar } from './Navbar';
 export const Header = () => {
   return (
     <>
-      <div class="header">
+      <div className="header">
         <h1>Název projektu</h1>
         <div className="burgerMenu-container">
           <div className="App" id="outer-container">
@@ -22,7 +22,7 @@ export const Header = () => {
         </div>
         <div className="navbar-container">
           <Navbar />
-          <Outlet />
+          {/* <Outlet /> */}
         </div>
       </div>
     </>
