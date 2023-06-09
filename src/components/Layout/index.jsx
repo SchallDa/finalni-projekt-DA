@@ -5,13 +5,11 @@ import { Header } from "../Header";
 export const Layout = () => {
     return (
         <> 
-        <Header/>
-        {/* <nav>
-            <Link to="/">Domů</Link>
-            <Link to="/oprojektu">O projektu</Link>
-            <Link to="/vyhledatodev">Vyhledat oděv</Link>
-        </nav> */}
-        <Outlet />
+        <nav>
+          <Link to="/">Domů</Link>
+          <Link to="/o-projektu">O projektu</Link>
+          <Link to="/vyhledat-odev">Vyhledat oděv</Link>
+        </nav>
         </>
     )
 };

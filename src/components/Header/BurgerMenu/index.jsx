@@ -11,11 +11,7 @@ export const BurgerMenu = () => {
     // zatím BM neumí odkazovat na jednotlivé stránky
     <>
       <Menu>
-        <nav>
-          <Link to="/">Domů</Link>
-          <Link to="/oprojektu">O projektu</Link>
-          <Link to="/vyhledatodev">Vyhledat oděv</Link>
-        </nav>
+        <Layout />
       </Menu>
       {/* <Outlet /> */}
     </>
