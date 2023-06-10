@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+:root {
+  --c-grey: #333230;
+  --c-lgrey: #6F6868;
+  --c-white: #fff;
+  --c-pink: #E55670;
+}
+
 *,
 body,
 ::before,
@@ -25,11 +32,16 @@ h1 {
   font-size: 40px;
 }
 
+h2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+
 /* mob.verze:  */
-
-
 #app {
-
   padding-right: 25px;
   padding-left: 25px;
   padding-top: 30px;
@@ -42,5 +54,11 @@ h1 {
     padding-left: 140px;
     padding-right: 140px;
     padding-top: 50px;
+  }
+
+  h2 {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    text-align: center;
   }
 }

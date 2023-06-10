@@ -10,18 +10,7 @@ export const ProjectInfo = () => {
           něj.
         </p>
 
-        <p className="project__intro">
-          Když zvolíme vhodný materiál, zjistíme, že jeden vlněný kabát stačí od
-          podzimu do jara
-        </p>
-
-        <p className="project__intro">
-          Zvol si typ oděvu, který tě zajímá, specifikuj své požadavky a my ti
-          řekneme, který materiál se pro tebe nejvíc hodí. Nebo si rovnou vyber
-          typ materiálu, o kterém se chceš dozvědět víc.
-        </p>
-
-        <div class="buttons">
+        <div className="buttons">
           <div>
             <a className="project__button project__button--vyhledat" href="#">
               Vyhledat oděv
@@ -29,7 +18,10 @@ export const ProjectInfo = () => {
           </div>
 
           <div>
-            <a className="project__button project__button--materialy" href="#">
+            <a
+              className="project__button project__button--materialy"
+              href="/materialy"
+            >
               Materiály
             </a>
           </div>
