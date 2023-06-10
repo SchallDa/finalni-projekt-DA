@@ -47,6 +47,10 @@ const router = createBrowserRouter([
         path: '/vyhledat-odev',
         element: <ClothesMenu />,
       },
+      {
+        path: '/detail-odevu/:uniqueID',
+        element: <div>Funguju</div>,
+      },
 
       {
         path: '/materialy',
