@@ -1,4 +1,4 @@
- export const repeatingQuestions = {
+export const repeatingQuestions = {
     originalPrice: {
         id: "price",
         label: "Nebude ti vadit počásteční vyšší investice?",
@@ -66,3 +66,80 @@ export const configs = {
 
 
 };
+
+export const getClothesId = (id, formResults) => {
+    switch (id) {
+        case CLOTHS_TYPE_IDS.COAT:
+            return formResults.price && formResults.dryCleaning ? CLOTHES_IDS.WOOLEN_COAT : CLOTHES_IDS.SYNTHETIC_COAT
+            default:
+                return null
+        // case
+}
+}
+
+const CLOTHS_TYPE_IDS = {
+    COAT: "coat",
+    SUIT: "suit",
+
+}
+const CLOTHES_IDS = {
+    WOOLEN_COAT: "vlneny-kabat",
+    SYNTHETIC_COAT: "synteticky-kabat"
+}
+
+const Clothes = {
+    [CLOTHES_IDS.WOOLEN_COAT]:
+    {
+        id: CLOTHES_IDS.WOOLEN_COAT,
+        pros: "Výhody vlněného kabátu",
+        cons: "Nevýhody vlněného kabátu",
+        maintanance: [],
+        eco: "Text k udržitelnosti",
+    },
+    [CLOTHES_IDS.SYNTHETIC_COAT]:
+    {
+        id: CLOTHES_IDS.SYNTHETIC_COAT,
+        pros: "Výhody synteticky",
+        cons: "Nevýhody syntetiky",
+        maintanance: [],
+        eco: "Text k udržitelnosti",
+    },
+    syntheticSuit: {
+        pros: "",
+        cons: "",
+        maintanance: [],
+        eco: "",
+    },
+    woolenSuit: {
+        pros: "",
+        cons: "",
+        maintanance: [],
+        eco: "",
+    },
+    "cottonSummerClothes": {
+        pros: "",
+        cons: "",
+        maintanance: [],
+        eco: "",
+    },
+    "linnenSummerClothes": {
+        pros: "",
+        cons: "",
+        maintanance: [],
+        eco: "",
+    },
+    "cottonWorkClothes": {
+        pros: "",
+        cons: "",
+        maintanance: [],
+        eco: "",
+    },
+    "syntheticWorkClothes": {
+        pros: "",
+        cons: "",
+        maintanance: [],
+        eco: "",
+    },
+};
+
+
