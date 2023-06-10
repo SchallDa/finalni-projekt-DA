@@ -8,6 +8,7 @@ import { ErrorPage } from './pages/ErrorPage';
 import { HomePage } from './pages/HomePage';
 import { App } from './components/App';
 import { Header } from './components/Header';
+import { ClothesForm } from './components/Forms/ClothesForm';
 
 //  export const App = () => {
 //   return (
@@ -33,9 +34,14 @@ const router = createBrowserRouter([
         element: <ProjectInfo />,
       },
       {
+        path: '/vyhledat-odev/:ClothesFormId',
+        element: <ClothesForm />,
+      },
+      {
         path: '/vyhledat-odev',
         element: <ClothesMenu />,
       },
+      
       
 
     ],
