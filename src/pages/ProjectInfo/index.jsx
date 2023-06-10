@@ -4,7 +4,7 @@ import './style.css';
 export const ProjectInfo = () => {
   return (
     <>
-      <div className="container">
+      <div className="project__container">
         <p className="project__intro project__intro--first">
           Jedním ze způsobů redukce oblečení je jeho kvalita a správná péče o
           něj.

@@ -1,39 +1,76 @@
 h2 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  text-align: center;
 }
 
-.clothesMenu__intro {
-  text-align: center;
-  max-width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 120%;
-  line-height: 150%;
+.clothesMenu__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 .clothesMenu__image {
-  width: 8rem;
-  height: 8rem;
-  background-image: url(./img/coat.png);
-  background-size: contain;
-  text-align: center;
-  color: #fff;
-  text-decoration: none;
+  width: 80px;
+  height: 80px;
+}
+
+.clothesMenu__image--white {
+  fill: #fff;
+}
+
+.clothesMenu__image--pink {
+  fill: #b72f48;
+}
+
+.clothesMenu__image--white:hover {
+  fill: #b72f48;
+}
+
+.clothesMenu__image--pink:hover {
+  fill: #fff;
+}
+
+
+.clothesMenu__text {
   font-size: 18px;
   font-weight: 700;
 }
 
+.clothesMenu__text--white {
+  color: #fff;
+}
+
+.clothesMenu__text--pink {
+  color: #b72f48;
+}
+
+
+.clothesMenu__text--white:hover {
+  color: #b72f48;
+}
+
+.clothesMenu__text--pink:hover {
+  color: #fff;
+}
 
 @media (min-width: 600px) {
-  .clothesMenu__image {
-    font-size: 24px;
-    max-width: 70%;
+
+  .clothesMenu {
+    display: flex;
+    justify-content: space-around;
   }
 
-  .container {
-    display: flex;
-    flex-direction: row;
+  h2 {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
   }
+
 
 }

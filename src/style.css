@@ -36,9 +36,7 @@ h1 {
 }
 
 
-
 /* desktop verze */
-
 @media (min-width: 600px) {
   #app {
     padding-left: 140px;
