@@ -1,3 +1,6 @@
+
+
+
 export const repeatingQuestions = {
     originalPrice: {
         id: "price",
@@ -31,6 +34,7 @@ export const configs = {
             repeatingQuestions.dryCleaning,
             repeatingQuestions.sustainability,
         ]
+        // icon: 
 
     },
     summerClothes: {
@@ -86,11 +90,23 @@ const CLOTHES_IDS = {
     WOOLEN_COAT: "vlneny-kabat",
     SYNTHETIC_COAT: "synteticky-kabat"
 }
-
+// dodělat
+// const Detail=()=>{
+//     const {clothId}=useParams()
+//     const (title, pros. cons, icon)=clothesConfig[clothChild]
+//     return (
+//         <div>
+//             <img src={icon}  />
+//         </div>
+//     )
+// }
+// dodělat icony a fiberlink
 const Clothes = {
     [CLOTHES_IDS.WOOLEN_COAT]:
     {
         id: CLOTHES_IDS.WOOLEN_COAT,
+        // icon:"CLOTHES_ICON.woolenIcon",
+        // fiberLink:"",
         pros: "Výhody vlněného kabátu",
         cons: "Nevýhody vlněného kabátu",
         maintanance: [],
