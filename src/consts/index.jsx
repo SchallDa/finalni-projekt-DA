@@ -116,8 +116,9 @@ export const Clothes = {
     [CLOTHES_IDS.WOOLEN_COAT]:
     {
         id: CLOTHES_IDS.WOOLEN_COAT,
-        // icon:"CLOTHES_ICON.woolenIcon",
-        // fiberLink:"",
+        header: "Vlněný kabát",
+        icon:"tady bude ikonka oblečení",
+        fiberLink:"tady bude obrázkový proklik na materiály",
         pros: "Výhody vlněného kabátu",
         cons: "Nevýhody vlněného kabátu",
         maintanance: [],
@@ -126,6 +127,9 @@ export const Clothes = {
     [CLOTHES_IDS.SYNTHETIC_COAT]:
     {
         id: CLOTHES_IDS.SYNTHETIC_COAT,
+        header: "Syntetický kabát",
+        icon:"tady bude ikonka oblečení",
+        fiberLink:"tady bude obrázkový proklik na materiály",
         pros: "Výhody synteticky",
         cons: "Nevýhody syntetiky",
         maintanance: [],
@@ -133,6 +137,9 @@ export const Clothes = {
     },
     [CLOTHES_IDS.WOOLEN_SUIT]: {
         id: CLOTHES_IDS.WOOLEN_SUIT,
+        header: "Vlněný oblek",
+        icon:"tady bude ikonka oblečení",
+        fiberLink:"tady bude obrázkový proklik na materiály",
         pros: "test",
         cons: "test",
         maintanance: [],
@@ -140,6 +147,9 @@ export const Clothes = {
     },
     [CLOTHES_IDS.SYNTHETIC_SUIT]: {
         id: CLOTHES_IDS.SYNTHETIC_SUIT,
+        header: "Syntetický oblek",
+        icon:"tady bude ikonka oblečení",
+        fiberLink:"tady bude obrázkový proklik na materiály",
         pros: "test",
         cons: "test",
         maintanance: [],
@@ -147,6 +157,9 @@ export const Clothes = {
     },
     [CLOTHES_IDS.COTTON_SUMMER_CLOTHES]: {
         id: CLOTHES_IDS.COTTON_SUMMER_CLOTHES ,
+        header: "Bavlněné letní oblečení",
+        icon:"tady bude ikonka oblečení",
+        fiberLink:"tady bude obrázkový proklik na materiály",
         pros: "test",
         cons: "test",
         maintanance: [],
@@ -154,6 +167,9 @@ export const Clothes = {
     },
     [CLOTHES_IDS.LINNEN_SUMMER_CLOTHES]: {
         id: CLOTHES_IDS.LINNEN_SUMMER_CLOTHES,
+        header: "Lněné letní oblečení",
+        icon:"tady bude ikonka oblečení",
+        fiberLink:"tady bude obrázkový proklik na materiály",
         pros: "test",
         cons: "test",
         maintanance: [],
@@ -161,6 +177,9 @@ export const Clothes = {
     },
     [CLOTHES_IDS.COTTON_WORK_CLOTHES]: {
         id:CLOTHES_IDS.COTTON_WORK_CLOTHES ,
+        header: "Bavlněné pracovní oblečení",
+        icon:"tady bude ikonka oblečení",
+        fiberLink:"tady bude obrázkový proklik na materiály",
         pros: "test",
         cons: "test",
         maintanance: [],
@@ -168,6 +187,9 @@ export const Clothes = {
     },
     [CLOTHES_IDS.SYNTHETIC_WORK_CLOTHES]: {
         id: CLOTHES_IDS.SYNTHETIC_WORK_CLOTHES,
+        header: "Syntetické pracovní oblečení",
+        icon:"tady bude ikonka oblečení",
+        fiberLink:"tady bude obrázkový proklik na materiály",
         pros: "test",
         cons: "test",
         maintanance: [],
