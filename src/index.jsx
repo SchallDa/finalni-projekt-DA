@@ -16,6 +16,7 @@ import { Wool } from './pages/Wool';
 import { App } from './components/App';
 import { Header } from './components/Header';
 import { ClothesForm } from './components/Forms/ClothesForm';
+import { FabricResults } from './pages/FabricResults';
 
 //  export const App = () => {
 //   return (
@@ -50,7 +51,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/detail-odevu/:uniqueID',
-        element: <div>Funguju</div>,
+        element: <FabricResults/>,
       },
 
       {
