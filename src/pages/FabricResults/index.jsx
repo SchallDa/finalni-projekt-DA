@@ -12,7 +12,7 @@ export const FabricResults=()=>{
     return (
 <>
 <img src={`/img/${icon}.svg`} alt="clothes_icon" />
-<span>{fiberLink}</span>
+<span> <img src={`/img/${fiberLink}.jpg`} alt="fiber_link_to_materials" /></span>
 <h2>{header}</h2>
 <h3>Proč zrovna tento materiál</h3>
 <p>{pros}</p>
@@ -20,7 +20,7 @@ export const FabricResults=()=>{
 <p>{cons}</p>
 <h3>Údržba</h3>
 {/* spodní řádek připraven pro pole ikon */}
-<div>{maintanance.map((mIcons)=> <img src={`/img/${mIcons}.svg`} alt="care_icons" />)}
+<div>  {maintanance.map((mIcons)=> <img key={mIcons} src={`/img/${mIcons}.svg`} alt="care_icons" />)} 
 </div> 
 <h3>Udržitelnost</h3>
 <p>{eco}</p>
