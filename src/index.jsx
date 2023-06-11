@@ -12,6 +12,7 @@ import { ProjectInfo } from './pages/ProjectInfo';
 import { ErrorPage } from './pages/ErrorPage';
 import { HomePage } from './pages/HomePage';
 import { Materials } from './pages/Materials';
+import { Wool } from './pages/Wool';
 import { App } from './components/App';
 import { Header } from './components/Header';
 import { ClothesForm } from './components/Forms/ClothesForm';
@@ -55,6 +56,11 @@ const router = createBrowserRouter([
       {
         path: '/materialy',
         element: <Materials />,
+      },
+
+      {
+        path: '/vlna',
+        element: <Wool />,
       },
     ],
   },

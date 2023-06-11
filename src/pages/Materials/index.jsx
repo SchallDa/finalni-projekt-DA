@@ -15,8 +15,8 @@ export const Materials = () => {
         </p>
 
         <div className="materials">
-          {/* Kabát */}
-          <a class="materials__item" href="#">
+          {/* Vlna */}
+          <a class="materials__item" href="'/vlna'">
             <img
               className="materials__image"
               margin-bottom="3px"
@@ -27,7 +27,7 @@ export const Materials = () => {
             <p className="materials__text">Vlna</p>
           </a>
 
-          {/* Oblek */}
+          {/* Bavlna */}
           <a className="materials__item" href="#">
             <img
               className="materials__image"
@@ -37,14 +37,14 @@ export const Materials = () => {
             <p className="materials__text">Bavlna</p>
           </a>
 
-          {/* Letní oblečení */}
+          {/* Len */}
           <a className="materials__item" href="#">
             <img className="materials__image" src="./img/linen.jpg" alt="Len" />
 
             <p className="materials__text">Len</p>
           </a>
 
-          {/* Pracovní oblečení */}
+          {/* Umělá vlákna */}
           <a className="materials__item" href="#">
             <img
               className="materials__image"
