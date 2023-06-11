@@ -1,11 +1,18 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './style.css';
-import { createBrowserRouter, RouterProvider, Route, Routes } from 'react-router-dom';
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Routes,
+} from 'react-router-dom';
 import { ClothesMenu } from './pages/ClothesMenu';
 import { ProjectInfo } from './pages/ProjectInfo';
 import { ErrorPage } from './pages/ErrorPage';
 import { HomePage } from './pages/HomePage';
+import { Materials } from './pages/Materials';
+import { Wool } from './pages/Wool';
 import { App } from './components/App';
 import { Header } from './components/Header';
 import { ClothesForm } from './components/Forms/ClothesForm';
@@ -26,8 +33,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-      path:'/',
-      element: <HomePage />,
+        path: '/',
+        element: <HomePage />,
       },
       {
         path: '/o-projektu',
@@ -42,18 +49,23 @@ const router = createBrowserRouter([
         element: <ClothesMenu />,
       },
       {
-        path: "/detail-odevu/:uniqueID" ,
+        path: '/detail-odevu/:uniqueID',
         element: <div>Funguju</div>,
       },
-      
-      
 
+      {
+        path: '/materialy',
+        element: <Materials />,
+      },
+
+      {
+        path: '/vlna',
+        element: <Wool />,
+      },
     ],
   },
-
 ]);
 
-
 createRoot(document.querySelector('#app')).render(
-  <RouterProvider router={router} />
+  <RouterProvider router={router} />,
 );

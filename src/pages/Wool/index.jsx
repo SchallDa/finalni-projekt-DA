@@ -1,11 +1,16 @@
 import React from 'react';
 import './style.css';
 
-export const ProjectInfo = () => {
+export const Wool = () => {
   return (
     <>
-      <div className="project__container">
-        <p className="project__intro project__intro--first">
+      <div className="material__container">
+        <div>
+          <img src="./img/wool.jpg)" alt="" />
+          <h2>Vlna</h2>
+        </div>
+
+        <p className="intro">
           Jedním ze způsobů redukce oblečení je jeho kvalita a správná péče o
           něj.
         </p>
