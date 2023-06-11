@@ -3,6 +3,7 @@ import './style.css';
 import { useForm } from "react-hook-form";
 import { useParams, useNavigate } from "react-router-dom";
 import { configs, getClothesId } from "../../../consts";
+import { trues } from "../../../helpers";
 
 
 export const ClothesForm = () => {
@@ -11,11 +12,13 @@ export const ClothesForm = () => {
     const navigate=useNavigate();
 
     const onSubmit = (formDataResults) => {
-        const uniqueID=getClothesId(ClothesFormId, formDataResults);
+        const trueCounts=trues(formDataResults)
+        const uniqueID=getClothesId(ClothesFormId, trueCounts);
         navigate(`/detail-odevu/${uniqueID}`)
         
         // tady uložena hodnota například vlněného kabátu
     };
+    
     // console.log(ClothesFormId);
     const { questions } = configs[ClothesFormId];
     return (

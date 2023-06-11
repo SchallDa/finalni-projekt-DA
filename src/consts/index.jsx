@@ -83,23 +83,23 @@ export const configs = {
 // // vezme výsledky z formuláře a spočítá ano
 // console.log(truesCountFunction ());
 
-export const getClothesId = (id, formResults) => {
+export const getClothesId = (id, trueCounts) => {
     switch (id) {
         case CLOTHS_TYPE_IDS.COAT:
-            // return resultsCount>=2 ? CLOTHES_IDS.WOOLEN_COAT : CLOTHES_IDS.SYNTHETIC_COAT
-            // case CLOTHS_TYPE_IDS.COAT:
-            //     return formResults.price && formResults.dryCleaning ?  CLOTHES_IDS.WOOLEN_COAT : CLOTHES_IDS.SYNTHETIC_COAT
-            console.log(Object.values(formResults).filter(value=>value).length)
-
+            return trueCounts >= 2 ? CLOTHES_IDS.WOOLEN_COAT : CLOTHES_IDS.SYNTHETIC_COAT
 
         case CLOTHS_TYPE_IDS.SUIT:
-            return formResults.price && formResults.dryCleaning ? CLOTHES_IDS.WOOLEN_SUIT : CLOTHES_IDS.SYNTHETIC_SUIT
-            
+            return trueCounts >= 2 ? CLOTHES_IDS.WOOLEN_SUIT : CLOTHES_IDS.SYNTHETIC_SUIT
+
         case CLOTHS_TYPE_IDS.SUMMER_CLOTHES:
-            return formResults.price && formResults.ironing ? CLOTHES_IDS.LINNEN_SUMMER_CLOTHES : CLOTHES_IDS.COTTON_SUMMER_CLOTHES
+            return trueCounts >= 2 ? CLOTHES_IDS.LINNEN_SUMMER_CLOTHES : CLOTHES_IDS.COTTON_SUMMER_CLOTHES
 
         case CLOTHS_TYPE_IDS.WORK_CLOTHES:
-            return formResults.manualLabor && formResults.hazard ? CLOTHES_IDS.COTTON_WORK_CLOTHES : CLOTHES_IDS.SYNTHETIC_WORK_CLOTHES
+            return trueCounts >= 2 ? CLOTHES_IDS.COTTON_WORK_CLOTHES : CLOTHES_IDS.SYNTHETIC_WORK_CLOTHES
+
+        // case CLOTHS_TYPE_IDS.WORK_CLOTHES:
+        //     return formResults.manualLabor && formResults.hazard ? CLOTHES_IDS.COTTON_WORK_CLOTHES : CLOTHES_IDS.SYNTHETIC_WORK_CLOTHES
+        // takto by to ReadableByteStreamController, pokud by místo parametru trueCounts byl formResults
         default:
             return null
 
