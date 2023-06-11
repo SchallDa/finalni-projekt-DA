@@ -4,7 +4,6 @@ import { useForm } from "react-hook-form";
 import { useParams, useNavigate } from "react-router-dom";
 import { configs, getClothesId } from "../../../consts";
 import { trues } from "../../../helpers";
-import { Clothes } from "../../../consts";
 
 export const ClothesForm = () => {
   const { register, handleSubmit } = useForm();
@@ -20,10 +19,10 @@ export const ClothesForm = () => {
   };
 
   // console.log(ClothesFormId);
-  const { questions } = configs[ClothesFormId];
+  const { questions, icon } = configs[ClothesFormId];
   return (
     <>
-      {/* <img src={`/img/${clothes.icon}.svg`} alt="clothes_icon" /> */}
+      <img src={`/img/${icon}.svg`} alt="clothes_icon" />
       <form onSubmit={handleSubmit(onSubmit)}>
         <h2>Co od oblečení očekáváš?</h2>
         {questions.map(({ id, label }) => {
