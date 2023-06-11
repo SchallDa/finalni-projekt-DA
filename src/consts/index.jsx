@@ -17,18 +17,24 @@ export const repeatingQuestions = {
     },
 }
 
+export const CLOTHS_TYPE_IDS = {
+    COAT: "kabat",
+    SUIT: "oblek",
+    SUMMER_CLOTHES: "letni-obleceni",
+    WORK_CLOTHES: "pracovni-obleceni",
+}
 
 export const configs = {
-    coat: {
-        id: "coat",
+    [CLOTHS_TYPE_IDS.COAT]: {
+        id: CLOTHS_TYPE_IDS.COAT,
         questions: [
             repeatingQuestions.originalPrice,
             repeatingQuestions.dryCleaning,
             repeatingQuestions.sustainability,
         ]
     },
-    suit: {
-        id: "suit",
+    [CLOTHS_TYPE_IDS.SUIT]: {
+        id: CLOTHS_TYPE_IDS.SUIT,
         questions: [
             repeatingQuestions.originalPrice,
             repeatingQuestions.dryCleaning,
@@ -37,8 +43,8 @@ export const configs = {
         // icon: 
 
     },
-    summerClothes: {
-        id: "summerClothes",
+    [CLOTHS_TYPE_IDS.SUMMER_CLOTHES]: {
+        id: CLOTHS_TYPE_IDS.SUMMER_CLOTHES,
         questions: [
             repeatingQuestions.originalPrice,
             {
@@ -49,8 +55,8 @@ export const configs = {
         ]
 
     },
-    workClothes: {
-        id: "workClothes",
+    [CLOTHS_TYPE_IDS.WORK_CLOTHES]: {
+        id: CLOTHS_TYPE_IDS.WORK_CLOTHES,
         questions: [
             {
                 id: "manualLabor",
@@ -84,6 +90,7 @@ export const configs = {
 // console.log(truesCountFunction ());
 
 export const getClothesId = (id, trueCounts) => {
+    console.log(trueCounts);
     switch (id) {
         case CLOTHS_TYPE_IDS.COAT:
             return trueCounts >= 2 ? CLOTHES_IDS.WOOLEN_COAT : CLOTHES_IDS.SYNTHETIC_COAT
@@ -106,13 +113,9 @@ export const getClothesId = (id, trueCounts) => {
     }
 }
 
-const CLOTHS_TYPE_IDS = {
-    COAT: "coat",
-    SUIT: "suit",
-    SUMMER_CLOTHES: "summerClothes",
-    WORK_CLOTHES: "workClothes",
 
-}
+
+
 const CLOTHES_IDS = {
     WOOLEN_COAT: "vlneny-kabat",
     SYNTHETIC_COAT: "synteticky-kabat",
