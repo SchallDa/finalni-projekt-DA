@@ -14,7 +14,7 @@ export const FabricResults=()=>{
 <img src={`/img/${icon}.svg`} alt="clothes_icon" />
 <span>{fiberLink}</span>
 <h2>{header}</h2>
-<h3>Proč zrovna daný materiál</h3>
+<h3>Proč zrovna tento materiál</h3>
 <p>{pros}</p>
 <h3>Nevýhody</h3>
 <p>{cons}</p>
