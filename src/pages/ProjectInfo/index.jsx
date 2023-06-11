@@ -12,7 +12,10 @@ export const ProjectInfo = () => {
 
         <div className="buttons">
           <div>
-            <a className="project__button project__button--vyhledat" href="#">
+            <a
+              className="project__button project__button--vyhledat"
+              href="/vyhledat-odev"
+            >
               Vyhledat oděv
             </a>
           </div>

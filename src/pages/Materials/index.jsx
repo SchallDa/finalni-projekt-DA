@@ -55,11 +55,9 @@ export const Materials = () => {
           </a>
         </div>
 
-        <div className="materials">
-          <a className="materials__button materials__button--zpet" href="#">
-            Zpět
-          </a>
-        </div>
+        <a className="button button--zpet" href="#">
+          Zpět
+        </a>
       </div>
     </>
   );

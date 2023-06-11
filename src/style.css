@@ -28,7 +28,7 @@ html {
 }
 
 h1 {
-  color: #E55670;
+  color: var(--c-pink);
   font-size: 40px;
 }
 
@@ -47,8 +47,6 @@ h2 {
   padding-top: 30px;
 }
 
-.intro {}
-
 /* desktop verze */
 @media (min-width: 600px) {
   #app {
@@ -62,4 +60,53 @@ h2 {
     padding-bottom: 4rem;
     text-align: center;
   }
+}
+
+/* buttons */
+.button {
+  background-color: var(--c-pink);
+  color: #333230;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 20px;
+  display: inline-block;
+  margin: 1.5rem;
+}
+
+.button--zpet {
+  padding: 15px 60px;
+}
+
+.button--flex {
+  display: flex;
+  justify-content: center;
+}
+
+/* concrete material */
+.material__headline {
+  display: flex;
+  align-items: center;
+}
+
+
+.material__container {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.material__intro {
+  line-height: 120%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.material__intro__header {
+  font-size: 1.2em;
+  padding-bottom: 1.3rem;
+  font-weight: 700;
+}
+
+.material__image--margin {
+  margin-right: 30px;
 }
