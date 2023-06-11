@@ -84,11 +84,22 @@ export const getClothesId = (id, formResults) => {
 const CLOTHS_TYPE_IDS = {
     COAT: "coat",
     SUIT: "suit",
+    SUMMER_CLOTHES: "summerClothes",
+    WORK_CLOTHES: "workClothes",
 
 }
 const CLOTHES_IDS = {
     WOOLEN_COAT: "vlneny-kabat",
-    SYNTHETIC_COAT: "synteticky-kabat"
+    SYNTHETIC_COAT: "synteticky-kabat",
+    WOOLEN_SUIT: "vlneny-oblek",
+    SYNTHETIC_SUIT: "synteticky-oblek",
+    COTTON_SUMMER_CLOTHES: "bavlnene-letni",
+    LINNEN_SUMMER_CLOTHES: "lnene-letni",
+    COTTON_WORK_CLOTHES: "bavlnene-pracovni",
+    SYNTHETIC_WORK_CLOTHES: "synteticke-pracovni",
+
+
+
 }
 // dodělat
 // const Detail=()=>{
@@ -101,7 +112,7 @@ const CLOTHES_IDS = {
 //     )
 // }
 // dodělat icony a fiberlink
-const Clothes = {
+export const Clothes = {
     [CLOTHES_IDS.WOOLEN_COAT]:
     {
         id: CLOTHES_IDS.WOOLEN_COAT,
@@ -120,41 +131,47 @@ const Clothes = {
         maintanance: [],
         eco: "Text k udržitelnosti",
     },
-    syntheticSuit: {
-        pros: "",
-        cons: "",
+    [CLOTHES_IDS.WOOLEN_SUIT]: {
+        id: CLOTHES_IDS.WOOLEN_SUIT,
+        pros: "test",
+        cons: "test",
         maintanance: [],
-        eco: "",
+        eco: "test",
     },
-    woolenSuit: {
-        pros: "",
-        cons: "",
+    [CLOTHES_IDS.SYNTHETIC_SUIT]: {
+        id: CLOTHES_IDS.SYNTHETIC_SUIT,
+        pros: "test",
+        cons: "test",
         maintanance: [],
-        eco: "",
+        eco:"test",
     },
-    "cottonSummerClothes": {
-        pros: "",
-        cons: "",
+    [CLOTHES_IDS.COTTON_SUMMER_CLOTHES]: {
+        id: CLOTHES_IDS.COTTON_SUMMER_CLOTHES ,
+        pros: "test",
+        cons: "test",
         maintanance: [],
-        eco: "",
+        eco: "test",
     },
-    "linnenSummerClothes": {
-        pros: "",
-        cons: "",
+    [CLOTHES_IDS.LINNEN_SUMMER_CLOTHES]: {
+        id: CLOTHES_IDS.LINNEN_SUMMER_CLOTHES,
+        pros: "test",
+        cons: "test",
         maintanance: [],
-        eco: "",
+        eco: "test",
     },
-    "cottonWorkClothes": {
-        pros: "",
-        cons: "",
+    [CLOTHES_IDS.COTTON_WORK_CLOTHES]: {
+        id:CLOTHES_IDS.COTTON_WORK_CLOTHES ,
+        pros: "test",
+        cons: "test",
         maintanance: [],
-        eco: "",
+        eco: "test",
     },
-    "syntheticWorkClothes": {
-        pros: "",
-        cons: "",
+    [CLOTHES_IDS.SYNTHETIC_WORK_CLOTHES]: {
+        id: CLOTHES_IDS.SYNTHETIC_WORK_CLOTHES,
+        pros: "test",
+        cons: "test",
         maintanance: [],
-        eco: "",
+        eco: "test",
     },
 };
 
