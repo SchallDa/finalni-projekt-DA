@@ -23,8 +23,8 @@ body,
 
 html {
   font-family: 'Montserrat', sans-serif;
-  background-color: #333230;
-  color: #fff;
+  background-color: var(--c-grey);
+  color: var(--c-white);
 }
 
 h1 {
@@ -36,7 +36,7 @@ h2 {
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: center;
-  color: #fff;
+  color: var(--c-white);
 }
 
 
@@ -62,19 +62,29 @@ h2 {
   }
 }
 
-/* buttons */
+/* button */
 .button {
   background-color: var(--c-pink);
-  color: #333230;
+  color: var(--c-grey);
   text-decoration: none;
   border-radius: 50px;
   font-size: 20px;
   display: inline-block;
   margin: 1.5rem;
+  line-height: 54px;
+  text-align: center;
 }
 
 .button--zpet {
-  padding: 15px 60px;
+  min-width: 200px;
+  padding: 0 15px;
+
+}
+
+.button--big {
+  min-width: 235px;
+  padding: 0 15px;
+
 }
 
 .button--flex {
@@ -82,7 +92,7 @@ h2 {
   justify-content: center;
 }
 
-/* concrete material */
+/* material */
 .material__headline {
   display: flex;
   align-items: center;

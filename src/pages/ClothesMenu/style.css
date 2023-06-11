@@ -16,7 +16,7 @@ a {
 }
 
 .clothesMenu__image--white {
-  fill: #fff;
+  fill: var(--c-white);
 }
 
 .clothesMenu__image--pink {
@@ -28,7 +28,7 @@ a {
 }
 
 .clothesMenu__image--pink:hover {
-  fill: #fff;
+  fill: var(--c-white);
 }
 
 
@@ -38,7 +38,7 @@ a {
 }
 
 .clothesMenu__text--white {
-  color: #fff;
+  color: var(--c-white);
 }
 
 .clothesMenu__text--pink {
@@ -51,7 +51,7 @@ a {
 }
 
 .clothesMenu__text--pink:hover {
-  color: #fff;
+  color: var(--c-white);
 }
 
 @media (min-width: 600px) {

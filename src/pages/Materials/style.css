@@ -34,14 +34,14 @@ a {
 .materials__text {
   font-size: 18px;
   font-weight: 700;
-  color: #fff;
+  color: var(--c-white);
   padding-top: 20px;
 }
 
 /* button */
 .materials__button {
   background-color: var(--c-pink);
-  color: #333230;
+  color: var(--c-grey);
   text-decoration: none;
   border-radius: 50px;
   font-size: 20px;

@@ -13,6 +13,6 @@
   }
 
   nav a:hover {
-    background-color: #6F6868;
+    background-color: var(--c-lgrey);
   }
 }

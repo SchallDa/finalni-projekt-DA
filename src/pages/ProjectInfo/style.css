@@ -28,7 +28,7 @@
 
 .project__button {
   background-color: var(--c-pink);
-  color: #333230;
+  color: var(--c-grey);
   text-decoration: none;
   border-radius: 50px;
   font-size: 20px;
@@ -44,7 +44,7 @@
 }
 
 .project__button:hover {
-  background-color: #6F6868;
+  background-color: var(--c-lgrey);
   color: var(--c-pink);
   font-weight: 700;
 }

@@ -12,7 +12,7 @@ import { ProjectInfo } from './pages/ProjectInfo';
 import { ErrorPage } from './pages/ErrorPage';
 import { HomePage } from './pages/HomePage';
 import { Materials } from './pages/Materials';
-import { Wool } from './pages/Wool';
+import { SpecificMaterial } from './pages/SpecificMaterial';
 import { App } from './components/App';
 import { Header } from './components/Header';
 import { ClothesForm } from './components/Forms/ClothesForm';
@@ -51,7 +51,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/detail-odevu/:uniqueID',
-        element: <FabricResults/>,
+        element: <FabricResults />,
       },
 
       {
@@ -60,8 +60,8 @@ const router = createBrowserRouter([
       },
 
       {
-        path: '/vlna',
-        element: <Wool />,
+        path: '/materialy/:MaterialId',
+        element: <SpecificMaterial />,
       },
     ],
   },
