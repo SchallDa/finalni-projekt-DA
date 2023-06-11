@@ -4,10 +4,6 @@
   align-items: center;
 }
 
-#page-wrap {
-  display: none;
-}
-
 .project__intro {
   text-align: center;
   max-width: 70%;
@@ -31,7 +27,7 @@
 }
 
 .project__button {
-  background-color: #E55670;
+  background-color: var(--c-pink);
   color: #333230;
   text-decoration: none;
   border-radius: 50px;
@@ -49,7 +45,7 @@
 
 .project__button:hover {
   background-color: #6F6868;
-  color: #E55670;
+  color: var(--c-pink);
   font-weight: 700;
 }
 
