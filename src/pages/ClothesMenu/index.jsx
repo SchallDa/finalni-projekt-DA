@@ -1,5 +1,7 @@
 import React from 'react';
 import './style.css';
+import { Link } from 'react-router-dom';
+import { CLOTHS_TYPE_IDS } from '../../consts';
 
 export const ClothesMenu = () => {
   return (
@@ -9,39 +11,33 @@ export const ClothesMenu = () => {
 
         <div className="clothesMenu">
           {/* Kabát */}
-          <a class="clothesMenu__item" href="#">
+          <Link className="clothesMenu__item" to={`/vyhledat-odev/${CLOTHS_TYPE_IDS.COAT}`}>
             <svg
               className="clothesMenu__image clothesMenu__image--pink"
-              height="48"
-              width="48"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 48 48"
             >
               <path d="M38.6 28.06 32.17 15a.93.93 0 0 1-.05-.1 2.88 2.88 0 0 0-.7-.9 3.48 3.48 0 0 0-2.42-.92h-2.21a1.11 1.11 0 0 0-.65.22l-2.3 1.7-1.58-1.52a1.06 1.06 0 0 0-.49-.26 1 1 0 0 0-.56-.17H19a3.5 3.5 0 0 0-2.05.66 2.81 2.81 0 0 0-1.07 1.17L9.4 28.06a1.06 1.06 0 0 0 .49 1.44l3.16 1.57a1.09 1.09 0 0 0 1.4-.4L15.5 29v2.46a3.51 3.51 0 0 0 3.5 3.46h10a3.5 3.5 0 0 0 3.5-3.5V29l1 1.64a1.09 1.09 0 0 0 1.4.41l3.16-1.57a1.06 1.06 0 0 0 .49-1.44ZM19 15.24h1.93l8 7.63h-2.39l-7.86-7.55a1.49 1.49 0 0 1 .32-.08Zm-2.42 5.56a1.09 1.09 0 0 0-1.08 1.08v3l-2.37 3.85-1.32-.73 5.47-11 6.15 5.9h-5.77v-1a1.08 1.08 0 0 0-1.08-1.1Zm13.8 10.62A1.35 1.35 0 0 1 29 32.76H19a1.36 1.36 0 0 1-1.35-1.34v-3.15h12.73Zm0-5.31H17.66V25h12.7v.8a.88.88 0 0 0 0 .16v.12Zm4.49 2.58-2.35-3.81V24a1.07 1.07 0 0 0-.23-.65 1 1 0 0 0-.3-.53l-6.57-6.31 1.73-1.31H29a1.3 1.3 0 0 1 .91.37l.06.05a.87.87 0 0 1 .17.21l6 12.09Z" />
             </svg>
             <p className="clothesMenu__text clothesMenu__text--pink">Kabát</p>
-          </a>
+          </Link>
 
           {/* Oblek */}
-          <a className="clothesMenu__item" href="#">
+          <Link className="clothesMenu__item" to={`/vyhledat-odev/${CLOTHS_TYPE_IDS.SUIT}`}>
             <svg
               className="clothesMenu__image clothesMenu__image--white"
-              height="48"
-              width="48"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 48 48"
             >
               <path d="M39.45 28.29 32.64 14.5v-.1a2.94 2.94 0 0 0-.74-.94 3.68 3.68 0 0 0-2.51-1H27a1.12 1.12 0 0 0-.68.23L24 14.39l-2.27-1.71a1.12 1.12 0 0 0-.68-.23h-2.33a3.69 3.69 0 0 0-2.17.7 3 3 0 0 0-1.13 1.23L8.55 28.29a1.19 1.19 0 0 0-.06.87 1.15 1.15 0 0 0 .58.66l3.35 1.66a1.15 1.15 0 0 0 1.48-.43l1.1-1.81v2.6a3.71 3.71 0 0 0 3.71 3.71h10.62A3.71 3.71 0 0 0 33 31.84v-2.53l1.07 1.74a1.15 1.15 0 0 0 1.48.43l3.35-1.66a1.15 1.15 0 0 0 .58-.66 1.19 1.19 0 0 0-.03-.87Zm-4 .68-2.49-4v-.88a1.14 1.14 0 1 0-2.28 0v1.89a1.11 1.11 0 0 0 0 .17v5.73a1.42 1.42 0 0 1-1.42 1.42H18.72a1.41 1.41 0 0 1-1.42-1.42v-7.83a1.15 1.15 0 1 0-2.29 0v.84L12.5 29l-1.39-.69 6.36-12.91a.69.69 0 0 1 .28-.3l.12-.08a1.44 1.44 0 0 1 .85-.28h1.94l2.65 2a1.14 1.14 0 0 0 1.38 0l2.65-2h2a1.46 1.46 0 0 1 1 .38s0 0 .05.05a.66.66 0 0 1 .18.23l6.32 12.8Zm-13-7.77A1.52 1.52 0 1 0 24 19.68a1.52 1.52 0 0 0-1.52 1.52Zm0 6.47A1.52 1.52 0 1 0 24 26.15a1.53 1.53 0 0 0-1.52 1.52Z" />
             </svg>
             <p className="clothesMenu__text clothesMenu__text--white">Oblek</p>
-          </a>
+          </Link>
 
           {/* Letní oblečení */}
-          <a className="clothesMenu__item" href="#">
+          <Link  className="clothesMenu__item" to={`/vyhledat-odev/${CLOTHS_TYPE_IDS.SUMMER_CLOTHES}`}>
             <svg
               className="clothesMenu__image clothesMenu__image--pink"
-              height="48"
-              width="48"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 48 48"
             >
@@ -50,14 +46,12 @@ export const ClothesMenu = () => {
             <p className="clothesMenu__text clothesMenu__text--pink">
               Letní oblečení
             </p>
-          </a>
+          </Link>
 
           {/* Pracovní oblečení */}
-          <a className="clothesMenu__item" href="#">
+          <Link className="clothesMenu__item" to={`/vyhledat-odev/${CLOTHS_TYPE_IDS.WORK_CLOTHES}`}>
             <svg
               className="clothesMenu__image clothesMenu__image--white"
-              height="48"
-              width="48"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 48 48"
             >
@@ -66,7 +60,7 @@ export const ClothesMenu = () => {
             <p className="clothesMenu__text clothesMenu__text--white">
               Pracovní oblečení
             </p>
-          </a>
+          </Link>
         </div>
       </div>
     </>
