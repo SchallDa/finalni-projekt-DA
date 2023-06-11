@@ -11,7 +11,7 @@ export const FabricResults=()=>{
     
     return (
 <>
-<span>{icon}</span>
+<img src={`/img/${icon}.svg`} alt="clothes_icon" />
 <span>{fiberLink}</span>
 <h2>{header}</h2>
 <h3>Proč zrovna daný materiál</h3>
@@ -19,7 +19,9 @@ export const FabricResults=()=>{
 <h3>Nevýhody</h3>
 <p>{cons}</p>
 <h3>Údržba</h3>
-<div>{maintanance}</div>
+{/* spodní řádek připraven pro pole ikon */}
+{/* <div>{maintanance.map((item)=> <img src={`/img/${item}.svg`} alt="" />)} */}
+{/* </div> */}
 <h3>Udržitelnost</h3>
 <p>{eco}</p>
 {/* Tyno, ty divy, p a celkově styly, jsou tam jen provizorne, abych ty propsy do něčeho obalila. Měň to a upravuje dle libosti */}
