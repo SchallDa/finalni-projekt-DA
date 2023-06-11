@@ -10,7 +10,7 @@ export const BurgerMenu = () => {
     // https://www.digitalocean.com/community/tutorials/react-react-burger-menu-sidebar
     // zatím BM neumí odkazovat na jednotlivé stránky
     <>
-      <Menu>
+      <Menu right>
         <Layout />
       </Menu>
       {/* <Outlet /> */}
