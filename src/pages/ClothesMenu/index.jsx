@@ -11,7 +11,10 @@ export const ClothesMenu = () => {
 
         <div className="clothesMenu">
           {/* Kabát */}
-          <Link className="clothesMenu__item" to={`/vyhledat-odev/${CLOTHS_TYPE_IDS.COAT}`}>
+          <Link
+            className="clothesMenu__item"
+            to={`/vyhledat-odev/${CLOTHS_TYPE_IDS.COAT}`}
+          >
             <svg
               className="clothesMenu__image clothesMenu__image--pink"
               xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +26,10 @@ export const ClothesMenu = () => {
           </Link>
 
           {/* Oblek */}
-          <Link className="clothesMenu__item" to={`/vyhledat-odev/${CLOTHS_TYPE_IDS.SUIT}`}>
+          <Link
+            className="clothesMenu__item"
+            to={`/vyhledat-odev/${CLOTHS_TYPE_IDS.SUIT}`}
+          >
             <svg
               className="clothesMenu__image clothesMenu__image--white"
               xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +41,10 @@ export const ClothesMenu = () => {
           </Link>
 
           {/* Letní oblečení */}
-          <Link  className="clothesMenu__item" to={`/vyhledat-odev/${CLOTHS_TYPE_IDS.SUMMER_CLOTHES}`}>
+          <Link
+            className="clothesMenu__item"
+            to={`/vyhledat-odev/${CLOTHS_TYPE_IDS.SUMMER_CLOTHES}`}
+          >
             <svg
               className="clothesMenu__image clothesMenu__image--pink"
               xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +58,10 @@ export const ClothesMenu = () => {
           </Link>
 
           {/* Pracovní oblečení */}
-          <Link className="clothesMenu__item" to={`/vyhledat-odev/${CLOTHS_TYPE_IDS.WORK_CLOTHES}`}>
+          <Link
+            className="clothesMenu__item"
+            to={`/vyhledat-odev/${CLOTHS_TYPE_IDS.WORK_CLOTHES}`}
+          >
             <svg
               className="clothesMenu__image clothesMenu__image--white"
               xmlns="http://www.w3.org/2000/svg"

@@ -1,10 +1,12 @@
 import React from 'react';
 import './style.css';
+href;
+import { Link } from 'react-router-dom';
 
 export const HomePage = () => {
   return (
     <>
-      <div className="main_container">
+      <div className="container container--main">
         <div className="main__image"></div>
         <p className="main__intro">
           Chceš omezit množství oblečení ve své skříni, ale nevíš jak na to?
@@ -12,17 +14,13 @@ export const HomePage = () => {
         </p>
 
         <div className="buttons">
-          <div>
-            <a className="button button--big" href="/vyhledat-odev">
-              Vyhledat oděv
-            </a>
-          </div>
+          <Link className="button button--big" to="/vyhledat-odev">
+            Vyhledat oděv
+          </Link>
 
-          <div>
-            <a className="button button--big" href="/materialy">
-              Materiály
-            </a>
-          </div>
+          <Link className="button button--big" to="/materialy">
+            Materiály
+          </Link>
         </div>
       </div>
     </>

@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import { useParams, useNavigate } from 'react-router-dom';
 import { MaterialDetail } from '../../consts';
+import { Link } from 'react-router-dom';
 
 export const SpecificMaterial = () => {
   const { MaterialId } = useParams();
@@ -11,7 +12,7 @@ export const SpecificMaterial = () => {
       <div className="material__container">
         <div className="material__headline material__image--margin">
           <img
-            className="materials__image material__image--margin"
+            className="material__image material__image--margin"
             margin-bottom="3px"
             src={`/img/${detail.icon}.jpg`}
             alt="{header}"
@@ -37,9 +38,9 @@ export const SpecificMaterial = () => {
         </p>
 
         <div class="button--flex">
-          <a className="button button--zpet" href="#">
+          <Link className="button button--zpet" to="/materialy">
             Zpět
-          </a>
+          </Link>
         </div>
       </div>
     </>

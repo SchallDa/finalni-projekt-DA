@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import { Link } from 'react-router-dom';
 
 export const Materials = () => {
   return (
@@ -16,7 +17,7 @@ export const Materials = () => {
 
         <div className="materials">
           {/* Vlna */}
-          <a class="materials__item" href="materialy/vlna">
+          <Link class="materials__item" to="vlna">
             <img
               className="materials__image"
               margin-bottom="3px"
@@ -25,40 +26,40 @@ export const Materials = () => {
             />
 
             <p className="materials__text">Vlna</p>
-          </a>
+          </Link>
 
           {/* Bavlna */}
-          <a className="materials__item" href="materialy/bavlna">
+          <Link className="materials__item" to="bavlna">
             <img
               className="materials__image"
               src="./img/cotton.jpg"
               alt="Vlna"
             />
             <p className="materials__text">Bavlna</p>
-          </a>
+          </Link>
 
           {/* Len */}
-          <a className="materials__item" href="materialy/len">
+          <Link className="materials__item" to="len">
             <img className="materials__image" src="./img/linen.jpg" alt="Len" />
 
             <p className="materials__text">Len</p>
-          </a>
+          </Link>
 
           {/* Umělá vlákna */}
-          <a className="materials__item" href="materialy/syntetika">
+          <Link className="materials__item" to="syntetika">
             <img
               className="materials__image"
               src="./img/synthetics.jpg"
               alt="Umělá vlákna"
             />
             <p className="materials__text">Umělá vlákna</p>
-          </a>
+          </Link>
         </div>
 
         <div className="button--flex">
-          <a className="button button--zpet" href="#">
+          <Link className="button button--zpet" to="/">
             Zpět
-          </a>
+          </Link>
         </div>
       </div>
     </>

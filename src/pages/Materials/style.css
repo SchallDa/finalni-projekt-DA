@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-.material_con .materials__intro {
+.materials__intro {
   text-align: center;
   max-width: 70%;
   margin-left: auto;
@@ -79,5 +79,5 @@ a {
 }
 
 .materials__item:hover {
-  transform: scale(1.1)
+  transform: scale(1.3)
 }

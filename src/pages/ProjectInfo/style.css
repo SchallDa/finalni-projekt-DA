@@ -6,9 +6,7 @@
 
 .project__intro {
   text-align: center;
-  max-width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+
   line-height: 120%;
   padding-top: 1rem;
 }
@@ -17,14 +15,7 @@
   padding-top: 2rem;
 }
 
-/* Button */
-.buttons {
-  margin-top: 4rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 2em;
-}
+
 
 .project__button {
   background-color: var(--c-pink);
