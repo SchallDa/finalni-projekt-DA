@@ -1,17 +1,25 @@
-.form__headline {
+.form__header {
   display: flex;
   align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+
 }
 
-.form__headline--left {
+.form__headline {
   text-align: left;
+  padding: 0px;
 }
+
+
 
 .form__image {
   width: 80px;
   height: 80px;
-  border-radius: 50%;
-  margin-right: 30px;
+}
+
+.form__image--pink {
+  fill: var(--c-lpink);
 }
 
 .form__item {

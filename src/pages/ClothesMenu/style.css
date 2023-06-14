@@ -1,3 +1,7 @@
+.clothesMenu {
+  margin-bottom: 2rem;
+}
+
 .clothesMenu__item {
   display: flex;
   flex-direction: column;
@@ -11,8 +15,8 @@ a {
 }
 
 .clothesMenu__image {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
 }
 
 .clothesMenu__image--white {
@@ -20,16 +24,18 @@ a {
 }
 
 .clothesMenu__image--pink {
-  fill: #b72f48;
+  fill: var(--c-lpink);
 }
 
-.clothesMenu__image--white:hover {
-  fill: #b72f48;
-}
 
 .clothesMenu__item--pink:hover {
   fill: var(--c-white);
   color: var(--c-white)
+}
+
+.clothesMenu__item--white:hover {
+  fill: var(--c-lpink);
+  color: var(--c-lpink)
 }
 
 .clothesMenu__text {
@@ -42,12 +48,12 @@ a {
 }
 
 .clothesMenu__text--pink {
-  color: #b72f48;
+  color: var(--c-lpink);
 }
 
 
 .clothesMenu__text--white:hover {
-  color: #b72f48;
+  color: var(--c-lpink);
 }
 
 .clothesMenu__text--pink:hover {
@@ -55,9 +61,9 @@ a {
 }
 
 @media (min-width: 600px) {
-
   .clothesMenu {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
   }
 

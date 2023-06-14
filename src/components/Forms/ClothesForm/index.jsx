@@ -23,13 +23,14 @@ export const ClothesForm = () => {
   const { questions, icon } = configs[ClothesFormId];
   return (
     <div className="container">
-      <div className="form__headline">
+      <div className="form__header">
         <img
           src={`/img/${icon}.svg`}
-          className=" form__image "
+          className="form__image form__image--pink"
           alt="clothes_icon"
         />
-        <h2 class="form__headline--left">Co od oblečení očekáváš?</h2>
+
+        <h2 class="form__headline">Co od oblečení očekáváš?</h2>
       </div>
 
       <form onSubmit={handleSubmit(onSubmit)}>

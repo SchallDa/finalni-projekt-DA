@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export const Materials = () => {
   return (
     <>
-      <div className="materials__container">
+      <div>
         <h2>Materiály</h2>
         <p className="materials__intro">
           V oděvním světě najdeme spoustu druhů vláken s různými vlastnostmi.
@@ -57,7 +57,7 @@ export const Materials = () => {
         </div>
 
         <div className="button--flex">
-          <Link className="button button--zpet" to="/">
+          <Link className="button" to="/">
             Zpět
           </Link>
         </div>

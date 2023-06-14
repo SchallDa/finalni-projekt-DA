@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export const ProjectInfo = () => {
   return (
     <>
-      <div className="project__container">
+      <div className="container">
         <p className="project__intro project__intro--first">
           Doplním text Jedním ze způsobů redukce oblečení je jeho kvalita a
           správná péče o něj.
