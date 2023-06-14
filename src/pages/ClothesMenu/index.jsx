@@ -1,7 +1,8 @@
-import React from 'react';
-import './style.css';
-import { Link } from 'react-router-dom';
-import { CLOTHS_TYPE_IDS } from '../../consts';
+import React from "react";
+import "./style.css";
+import { Link } from "react-router-dom";
+import { CLOTHS_TYPE_IDS } from "../../consts";
+import { Footer } from "../../components/Footer";
 
 export const ClothesMenu = () => {
   return (
@@ -78,6 +79,7 @@ export const ClothesMenu = () => {
           Zpět
         </Link>
       </div>
+      <Footer />
     </>
   );
 };
