@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.css';
-href;
 import { Link } from 'react-router-dom';
 
 export const HomePage = () => {
