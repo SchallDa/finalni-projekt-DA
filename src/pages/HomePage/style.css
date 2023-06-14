@@ -16,11 +16,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
   width: 10rem;
   height: 10rem;
-  background-image: url(./img/wool.jpg);
-  background-size: contain;
   border-radius: 50%;
   align-self: center;
   margin: 3rem;
