@@ -72,6 +72,7 @@ h2 {
 .button {
   min-width: 235px;
   padding: 0 15px;
+  border-style: none;
 
 }
 
