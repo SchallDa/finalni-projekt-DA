@@ -1,9 +1,10 @@
-import React from "react";
-import "./style.css";
-import { useForm } from "react-hook-form";
-import { useParams, useNavigate } from "react-router-dom";
-import { configs, getClothesId } from "../../../consts";
-import { trues } from "../../../helpers";
+import React from 'react';
+import './style.css';
+import { useForm } from 'react-hook-form';
+import { useParams, useNavigate } from 'react-router-dom';
+import { configs, getClothesId } from '../../../consts';
+import { trues } from '../../../helpers';
+import { Link } from 'react-router-dom';
 
 export const ClothesForm = () => {
   const { register, handleSubmit } = useForm();
@@ -21,35 +22,54 @@ export const ClothesForm = () => {
   // console.log(ClothesFormId);
   const { questions, icon } = configs[ClothesFormId];
   return (
-    <>
-      <img src={`/img/${icon}.svg`} alt="clothes_icon" />
+    <div className="container">
+      <div className="form__headline">
+        <img
+          src={`/img/${icon}.svg`}
+          className=" form__image "
+          alt="clothes_icon"
+        />
+        <h2 class="form__headline--left">Co od oblečení očekáváš?</h2>
+      </div>
+
       <form onSubmit={handleSubmit(onSubmit)}>
-        <h2>Co od oblečení očekáváš?</h2>
         {questions.map(({ id, label }) => {
           return (
-            <div key={id}>
-              <h3>{label}</h3>
+            <div key={id} className="form__item">
+              <h3 className="form__question">{label}</h3>
               {/* label: "Je tvá práce fyzicky náročná?" */}
-              <input
-                type="radio"
-                value={true}
-                id={`yes${id}`}
-                {...register(id)}
-              />
-              <label htmlFor={`yes${id}`}>Ano</label>
-              <input
-                type="radio"
-                value={false}
-                id={`no${id}`}
-                {...register(id)}
-              />
-              <label htmlFor={`no${id}`}>Ne</label>
+
+              <span className="form__input">
+                <input
+                  type="radio"
+                  value={true}
+                  id={`yes${id}`}
+                  {...register(id)}
+                  color="red"
+                />
+                <label htmlFor={`yes${id}`}>Ano</label>
+              </span>
+
+              <span className="form__input">
+                <input
+                  type="radio"
+                  value={false}
+                  id={`no${id}`}
+                  {...register(id)}
+                />
+                <label htmlFor={`no${id}`}>Ne</label>
+              </span>
             </div>
           );
         })}
-        <button>Vyhodnotit</button>
+
+        <button className="button button-form">Vyhodnotit</button>
+
+        <Link className="button button-form" to="/vyhledat-odev">
+          Zpět
+        </Link>
       </form>
-    </>
+    </div>
   );
 };
 

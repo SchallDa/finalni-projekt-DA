@@ -1,0 +1,42 @@
+.form__headline {
+  display: flex;
+  align-items: center;
+}
+
+.form__headline--left {
+  text-align: left;
+}
+
+.form__image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.form__item {
+  padding-bottom: 1.5rem;
+}
+
+.form__question {
+  margin-bottom: 0.8rem;
+}
+
+
+.form__input {
+  margin-left: 15px;
+}
+
+input {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+label {
+  vertical-align: top;
+  margin-left: 0.3rem;
+}
+
+.button-form {
+  margin-left: 0;
+}

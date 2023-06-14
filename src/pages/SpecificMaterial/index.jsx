@@ -9,10 +9,10 @@ export const SpecificMaterial = () => {
   const detail = MaterialDetail[MaterialId];
   return (
     <>
-      <div className="material__container">
-        <div className="material__headline material__image--margin">
+      <div className="container">
+        <div className="material__headline">
           <img
-            className="material__image material__image--margin"
+            className="material__image"
             margin-bottom="3px"
             src={`/img/${detail.icon}.jpg`}
             alt="{header}"

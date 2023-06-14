@@ -27,10 +27,10 @@ a {
   fill: #b72f48;
 }
 
-.clothesMenu__image--pink:hover {
+.clothesMenu__item--pink:hover {
   fill: var(--c-white);
+  color: var(--c-white)
 }
-
 
 .clothesMenu__text {
   font-size: 18px;

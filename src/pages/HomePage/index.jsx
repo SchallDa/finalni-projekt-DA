@@ -17,8 +17,8 @@ export const HomePage = () => {
             Vyhledat oděv
           </Link>
 
-          <Link className="button button--big" to="/materialy">
-            Materiály
+          <Link className="button button--big" to="/o-projektu">
+            O projektu
           </Link>
         </div>
       </div>

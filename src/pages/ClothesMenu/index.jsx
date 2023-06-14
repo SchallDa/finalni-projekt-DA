@@ -12,7 +12,7 @@ export const ClothesMenu = () => {
         <div className="clothesMenu">
           {/* Kabát */}
           <Link
-            className="clothesMenu__item"
+            className="clothesMenu__item clothesMenu__item--pink"
             to={`/vyhledat-odev/${CLOTHS_TYPE_IDS.COAT}`}
           >
             <svg

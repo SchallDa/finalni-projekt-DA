@@ -53,28 +53,6 @@ h2 {
   margin-right: auto;
 }
 
-/* desktop verze */
-@media (min-width: 600px) {
-  #app {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
-  }
-
-  h2 {
-    padding-top: 3rem;
-    padding-bottom: 4rem;
-    text-align: center;
-  }
-
-  container {
-    max-width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 /* button */
 .button {
   background-color: var(--c-pink);
@@ -88,12 +66,9 @@ h2 {
   text-align: center;
 }
 
-.button--zpet {
-  min-width: 200px;
-  padding: 0 15px;
-}
 
-.button--big {
+
+.button {
   min-width: 235px;
   padding: 0 15px;
 
@@ -111,4 +86,26 @@ h2 {
   flex-direction: column;
   justify-content: center;
 
+}
+
+/* desktop verze */
+@media (min-width: 600px) {
+  #app {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+  }
+
+  h2 {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
