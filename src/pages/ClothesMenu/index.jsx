@@ -10,7 +10,6 @@ export const ClothesMenu = () => {
       <h2>Co za oblečení hledáš?</h2>
 
       <div className="clothesMenu">
-        {/* Kabát */}
         <Link
           className="clothesMenu__item clothesMenu__item--pink"
           to={`/vyhledat-odev/${CLOTHS_TYPE_IDS.COAT}`}
@@ -25,7 +24,6 @@ export const ClothesMenu = () => {
           <p className="clothesMenu__text clothesMenu__text--pink">Kabát</p>
         </Link>
 
-        {/* Oblek */}
         <Link
           className="clothesMenu__item clothesMenu__item--white"
           to={`/vyhledat-odev/${CLOTHS_TYPE_IDS.SUIT}`}
@@ -40,7 +38,6 @@ export const ClothesMenu = () => {
           <p className="clothesMenu__text clothesMenu__text--white">Oblek</p>
         </Link>
 
-        {/* Letní oblečení */}
         <Link
           className="clothesMenu__item"
           to={`/vyhledat-odev/${CLOTHS_TYPE_IDS.SUMMER_CLOTHES}`}
@@ -57,7 +54,6 @@ export const ClothesMenu = () => {
           </p>
         </Link>
 
-        {/* Pracovní oblečení */}
         <Link
           className="clothesMenu__item"
           to={`/vyhledat-odev/${CLOTHS_TYPE_IDS.WORK_CLOTHES}`}
@@ -79,7 +75,6 @@ export const ClothesMenu = () => {
           Zpět
         </Link>
       </div>
-      <Footer />
     </>
   );
 };

@@ -1,8 +1,8 @@
-import React from 'react';
-import './style.css';
-import { useParams, useNavigate } from 'react-router-dom';
-import { MaterialDetail } from '../../consts';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./style.css";
+import { useParams } from "react-router-dom";
+import { MaterialDetail } from "../../consts";
+import { Link } from "react-router-dom";
 
 export const SpecificMaterial = () => {
   const { MaterialId } = useParams();
@@ -37,7 +37,7 @@ export const SpecificMaterial = () => {
           {detail.maintenance}
         </p>
 
-        <div class="button--flex">
+        <div className="button--flex">
           <Link className="button button--zpet" to="/materialy">
             Zpět
           </Link>

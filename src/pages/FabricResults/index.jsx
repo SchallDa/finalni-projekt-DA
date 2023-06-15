@@ -30,7 +30,6 @@ export const FabricResults = () => {
         <h2 className="result__headline">{header}</h2>
       </div>
 
-      {/* Potřeba napojit linky na stránku s konkrétním materiálem */}
       <Link to={`${link}`}>
         <img
           src={`/img/${fiberLink}.jpg`}
@@ -44,8 +43,6 @@ export const FabricResults = () => {
       <h3 className="result__question">Nevýhody</h3>
       <p className="result__text">{cons}</p>
       <h3 className="result__question">Údržba</h3>
-      {/* spodní řádek připraven pro pole ikon */}
-
       <div className="result__text">
         {' '}
         {maintenance.map((mIcons) => (

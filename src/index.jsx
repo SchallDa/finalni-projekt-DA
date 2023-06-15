@@ -14,7 +14,6 @@ import { HomePage } from './pages/HomePage';
 import { Materials } from './pages/Materials';
 import { SpecificMaterial } from './pages/SpecificMaterial';
 import { App } from './components/App';
-import { Header } from './components/Header';
 import { ClothesForm } from './components/Forms/ClothesForm';
 import { FabricResults } from './pages/FabricResults';
 
