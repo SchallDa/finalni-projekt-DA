@@ -1,13 +1,21 @@
-import React from 'react';
-import './style.css';
-import { useParams } from 'react-router-dom';
-import { Clothes } from '../../consts';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./style.css";
+import { useParams } from "react-router-dom";
+import { Clothes } from "../../consts";
+import { Link } from "react-router-dom";
 
 export const FabricResults = () => {
   const { uniqueID } = useParams();
-  const { header, icon, fiberLink, pros, cons, maintanance, eco } =
-    Clothes[uniqueID];
+  const {
+    header,
+    icon,
+    fiberLink,
+    pros,
+    cons,
+    maintanance,
+    maintenanceLegend,
+    eco,
+  } = Clothes[uniqueID];
 
   return (
     <div className="form_container">
@@ -37,7 +45,7 @@ export const FabricResults = () => {
       <h3 className="result__question">Údržba</h3>
       {/* spodní řádek připraven pro pole ikon */}
       <div className="result__text">
-        {' '}
+        {" "}
         {maintanance.map((mIcons) => (
           <img
             key={mIcons}
@@ -45,6 +53,9 @@ export const FabricResults = () => {
             alt="care_icons"
             className="form__image"
           />
+        ))}
+        {maintenanceLegend.map((mLegends) => (
+          <div className="result__legend">{`${mLegends}`}</div>
         ))}
       </div>
       <h3 className="result__question">Udržitelnost</h3>

@@ -147,6 +147,7 @@ export const Clothes = {
       "do-not-wash",
       "do-not-tumble-dry",
     ],
+    maintenanceLegend: ["nebělit", "čištění pouze tetrachlorethylenem", "neprat", "nesušit v sušičce"],
     eco: "Produkce vlněných vláken je poměrně kontroverzní. Ovce jsou ideální pro spásání louk, jejich přílišná aktivita ale může vést k nevratnému poškození místa a erozi půdy. Kvalita života ovcí se rovněž může výrazně lišit. ",
   },
 
@@ -158,6 +159,7 @@ export const Clothes = {
     pros: "Syntetické materiály jsou relativně levnými a představují alternativu k dražším látkám. Umělá vlákna lze vyprodukovat v barevných odstínech, které nejsou pro přírodní materiály možné.",
     cons: "Oděvy s vysokým podílem syntetických vláken jsou velmi málo prodyšné, nositel se v nich brzy zapotí, což často doprovází i nelibý óder. ",
     maintanance: ["iron-medium-temperature"],
+    maintenanceLegend: ["žehlit na teplotu do 150°C"],
     eco: "Výroba syntetických materiálů je energeticky velmi náročná. Při jejich praní navíc dochází k uvolňování nerozložitelných mikrovláken, které mají negativní dopady na lidské zdraví i ekosystém.",
   },
   [CLOTHES_IDS.WOOLEN_SUIT]: {
@@ -173,6 +175,7 @@ export const Clothes = {
       "do-not-wash",
       "do-not-tumble-dry",
     ],
+    maintenanceLegend: ["nebělit", "čištění pouze tetrachlorethylenem", "neprat", "nesušit v sušičce"],
     eco: "Produkce vlněných vláken je poměrně kontroverzní. Ovce jsou ideální pro spásání louk, jejich přílišná aktivita ale může vést k nevratnému poškození místa a erozi půdy. Kvalita života ovcí se rovněž může výrazně lišit.",
   },
   [CLOTHES_IDS.SYNTHETIC_SUIT]: {
@@ -187,6 +190,7 @@ export const Clothes = {
       "tumble-dry-law-temperature",
       "iron-medium-temperature",
     ],
+    maintenanceLegend: ["prát na 40°C", "při nízké teplotě možno sušit v sušičce ", "žehlit na teplotu do 150°C"],
     eco: "Výroba syntetických materiálů je energeticky velmi náročná. Při jejich praní navíc dochází k uvolňování nerozložitelných mikrovláken, které mají negativní dopady na lidské zdraví i ekosystém.",
   },
   [CLOTHES_IDS.COTTON_SUMMER_CLOTHES]: {
@@ -201,6 +205,7 @@ export const Clothes = {
       "machine-wash-normal",
       "tumble-dry-law-temperature",
     ],
+    maintenanceLegend: ["při žehlení napařovat", "běžné praní", "při nízké teplotě možno sušit v sušičce"],
     eco: "Produkce bavlny je velmi náročná na spotřebu vody, pesticidů, insekticidů i hnojiv. Palčivou otázkou jsou i životní podmínky pracovníků v bavlněném průmyslu. Vhodnější alternativou může být ekologická, či recyklovaná bavlna.",
   },
   [CLOTHES_IDS.LINNEN_SUMMER_CLOTHES]: {
@@ -215,6 +220,7 @@ export const Clothes = {
       "machine-wash-normal",
       "tumble-dry-law-temperature",
     ],
+    maintenanceLegend: ["při žehlení napařovat", "běžné praní","při nízké teplotě možno sušit v sušičce"],
     eco: "Len je jedním z nejekologičtějších materiálu, z kterých je možné oděv ušít. Roste i na nepříliš úrodných místech, nepotřebuje zavlažovat a jeho zpracování je environmentálně nenáročné.",
   },
   [CLOTHES_IDS.COTTON_WORK_CLOTHES]: {
@@ -229,6 +235,7 @@ export const Clothes = {
       "machine-wash-normal",
       "tumble-dry-law-temperature",
     ],
+    maintenanceLegend: ["při žehlení napařovat", "běžné praní","při nízké teplotě možno sušit v sušičce"],
     eco: "Produkce bavlny je velmi náročná na spotřebu vody, pesticidů, insekticidů i hnojiv. Palčivou otázkou jsou i životní podmínky pracovníků v bavlněném průmyslu. Vhodnější alternativou může být ekologická, či recyklovaná bavlna.",
   },
   [CLOTHES_IDS.SYNTHETIC_WORK_CLOTHES]: {
@@ -243,6 +250,7 @@ export const Clothes = {
       "wash-40-degrees",
       "iron-medium-temperature",
     ],
+    maintenanceLegend: ["při nízké teplotě možno sušit v sušičce", "prát na 40°C", "žehlit na teplotu do 150°C" ],
     eco: "Výroba syntetických materiálů je energeticky velmi náročná. Při jejich praní navíc dochází k uvolňování nerozložitelných mikrovláken, které mají negativní dopady na lidské zdraví i ekosystém.",
   },
 };
