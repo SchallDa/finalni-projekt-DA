@@ -10,6 +10,7 @@ export const FabricResults = () => {
     header,
     icon,
     fiberLink,
+    link,
     pros,
     cons,
     maintenance,
@@ -26,11 +27,11 @@ export const FabricResults = () => {
           className="form__image form__image--pink"
         />
 
-        <h2 class="form__headline">{header}</h2>
+        <h2 className="form__headline">{header}</h2>
       </div>
 
       {/* Potřeba napojit linky na stránku s konkrétním materiálem */}
-      <Link to="#">
+      <Link to={`${link}`}>
         <img
           src={`/img/${fiberLink}.jpg`}
           className="result__image"
@@ -55,7 +56,9 @@ export const FabricResults = () => {
           />
         ))}
         {maintenanceLegend.map((mLegends) => (
-          <div className="result__legend">{`${mLegends}`}</div>
+          <div 
+          key={mLegends}
+          className="result__legend">{`${mLegends}`}</div>
         ))}
       </div>
       <h3 className="result__question">Udržitelnost</h3>

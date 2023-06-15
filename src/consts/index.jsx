@@ -139,6 +139,7 @@ export const Clothes = {
     header: "Vlněný kabát",
     icon: "coat",
     fiberLink: "wool",
+    link: "/materialy/vlna",
     pros: "Vlna je skvělým materiálem pro zimní oblečení. Má výborné termoizolační vlastnosti, odvádí vlhkost, nemačká se a navíc hřeje i za mokra.",
     cons: "Vlněné kabáty jsou relativně drahé na pořízení i údržbu. Je nutné je chránit před molem šatním a čistit je jen v čistírně. ",
     maintenance: [
@@ -161,6 +162,7 @@ export const Clothes = {
     header: "Syntetický kabát",
     icon: "coat",
     fiberLink: "synthetics",
+    link: "/materialy/syntetika",
     pros: "Syntetické materiály jsou relativně levnými a představují alternativu k dražším látkám. Umělá vlákna lze vyprodukovat v barevných odstínech, které nejsou pro přírodní materiály možné.",
     cons: "Oděvy s vysokým podílem syntetických vláken jsou velmi málo prodyšné, nositel se v nich brzy zapotí, což často doprovází i nelibý óder. ",
     maintenance: ["iron-medium-temperature"],
@@ -172,6 +174,7 @@ export const Clothes = {
     header: "Vlněný oblek",
     icon: "suit",
     fiberLink: "wool",
+    link: "/materialy/vlna",
     pros: "Vlna je skvělým materiálem pro obleky. Má výborné termoizolační vlastnosti, odvádí vlhkost, nemačká se, dobře odolává otěrům na namáhaných místech  a navíc hřeje i za mokra.",
     cons: "Vlněné obleky jsou relativně drahé na pořízení i údržbu. Je nutné je chránit před molem šatním a čistit  jen v čistírně.",
     maintenance: [
@@ -193,6 +196,7 @@ export const Clothes = {
     header: "Syntetický oblek",
     icon: "suit",
     fiberLink: "synthetics",
+    link: "/materialy/syntetika",
     pros: "Syntetické materiály jsou relativně levnými a představují alternativu k dražším látkám. Pokud se jedná o oblek, který bude využit jednou ročně, syntetický materiál není na škodu.",
     cons: "Oděvy s vysokým podílem syntetických vláken jsou velmi málo prodyšné, nositel se v nich brzy zapotí, což často doprovází i nelibý óder.",
     maintenance: [
@@ -212,6 +216,7 @@ export const Clothes = {
     header: "Bavlněné letní oblečení",
     icon: "summer",
     fiberLink: "cotton",
+    link: "/materialy/bavlna",
     pros: "Bavlna je jedním z vhodných materiálů pro letní oblečení. Je prodyšná a dobře odvádí pot.",
     cons: "Samotné bavlněné vlákno nemá nikterak speciální termoregulační vlastnosti. Jaké teplo v oděvu bude, lze ovlivnit třeba výběrem barvy. Světlé odstíny sluneční paprsky odrážejí, tmavé naopak pohlcují.",
     maintenance: [
@@ -231,6 +236,7 @@ export const Clothes = {
     header: "Lněné letní oblečení",
     icon: "summer",
     fiberLink: "linen",
+    link: "/materialy/len",
     pros: "Lněné oblečení je studené na omak, což znamená že v létě příjemně chladí. Navíc skvěle odvádí pot. ",
     cons: "V porovnání s bavlněným oblečením je jednou z nevýhod vyšší pořizovací cena. To je dáno především menší nabídkou lněných oděvů. Další nevýhodou je nepoddajnost vlákna a oblečení je tak zapotřebí žehlit.",
     maintenance: [
@@ -250,6 +256,7 @@ export const Clothes = {
     header: "Bavlněné pracovní oblečení",
     icon: "work",
     fiberLink: "cotton",
+    link: "/materialy/bavlna",
     pros: "Bavlněný oděv je ideální pro manuálně náročnou práci, neboť je prodyšný. Pokud práce obsahuje manipulaci s ohněm a například chemikáliemi, tak  bavlna, narozdíl od syntetiky, “pouze” shoří a nedojde ke “seškvaření” materiálu. Bavlněný oděv je tak v případě nehody ta lepší varianta. ",
     cons: "Bavlnu většinou není možné nabarvit na tak výrazné odstíny, které jsou technologicky možné jen u syntetických vláken",
     maintenance: [
@@ -269,6 +276,7 @@ export const Clothes = {
     header: "Syntetické pracovní oblečení",
     icon: "work",
     fiberLink: "synthetics",
+    link: "/materialy/syntetika",
     pros: "Syntetické materiály jsou relativně levné a představují alternativu k dražším materiálům. Umělá vlákna je možné vyrobit v odstínech, které nejsou technologicky proveditelné u přírodních materiálů.",
     cons: 'Oděvy s vysokým podílem syntetických vláken jsou velmi málo prodyšné, rychle se v nich zpotíme, což často doprovází nelibý óder. Při kontaktu s ohněm a chemikáliemi u nich dochází ke "seškvaření", což může negativně ovlivnit případnou popáleninu na kůži.',
     maintenance: [
