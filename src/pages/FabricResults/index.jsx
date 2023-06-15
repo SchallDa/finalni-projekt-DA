@@ -30,7 +30,6 @@ export const FabricResults = () => {
         <h2 className="form__headline">{header}</h2>
       </div>
 
-      {/* Potřeba napojit linky na stránku s konkrétním materiálem */}
       <Link to={`${link}`}>
         <img
           src={`/img/${fiberLink}.jpg`}
@@ -44,7 +43,6 @@ export const FabricResults = () => {
       <h3 className="result__question">Nevýhody</h3>
       <p className="result__text">{cons}</p>
       <h3 className="result__question">Údržba</h3>
-      {/* spodní řádek připraven pro pole ikon */}
       <div className="result__text">
         {" "}
         {maintenance.map((mIcons) => (
@@ -63,7 +61,6 @@ export const FabricResults = () => {
       </div>
       <h3 className="result__question">Udržitelnost</h3>
       <p>{eco}</p>
-      {/* Tyno, ty divy, p a celkově styly, jsou tam jen provizorne, abych ty propsy do něčeho obalila. Měň to a upravuje dle libosti */}
 
       <Link className="button button-form" to="/vyhledat-odev">
         Zpět

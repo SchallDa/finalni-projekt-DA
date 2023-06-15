@@ -132,7 +132,7 @@ const MATERIALS_IDS = {
   SYNTHETIC: "syntetika",
 };
 
-// dodělat icony a fiberlink
+
 export const Clothes = {
   [CLOTHES_IDS.WOOLEN_COAT]: {
     id: CLOTHES_IDS.WOOLEN_COAT,

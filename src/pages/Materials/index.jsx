@@ -16,8 +16,7 @@ export const Materials = () => {
         </p>
 
         <div className="materials">
-          {/* Vlna */}
-          <Link class="materials__item" to="vlna">
+          <Link className="materials__item" to="vlna">
             <img
               className="materials__image"
               margin-bottom="3px"
@@ -28,7 +27,6 @@ export const Materials = () => {
             <p className="materials__text">Vlna</p>
           </Link>
 
-          {/* Bavlna */}
           <Link className="materials__item" to="bavlna">
             <img
               className="materials__image"
@@ -38,14 +36,12 @@ export const Materials = () => {
             <p className="materials__text">Bavlna</p>
           </Link>
 
-          {/* Len */}
           <Link className="materials__item" to="len">
             <img className="materials__image" src="./img/linen.jpg" alt="Len" />
 
             <p className="materials__text">Len</p>
           </Link>
 
-          {/* Umělá vlákna */}
           <Link className="materials__item" to="syntetika">
             <img
               className="materials__image"

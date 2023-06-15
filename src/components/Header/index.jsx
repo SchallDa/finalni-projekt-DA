@@ -3,7 +3,6 @@ import './style.css';
 import { BurgerMenu } from './BurgerMenu';
 import { Navbar } from './Navbar';
 
-// zatím vše tvořeno pro "hlavní navigaci" jako ve Figmě (tj-Domů, O Projektu a Vyhledat oděv), další "vedlejší" pages (Materiály, jednotlivé materiály, výdledný materiál,..) ještě neřešeny
 
 export const Header = () => {
   return (
