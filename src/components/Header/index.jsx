@@ -10,7 +10,7 @@ export const Header = () => {
   return (
     <>
       <div className="header">
-        <h1>Název projektu</h1>
+        <h1>Fibers & Fashion</h1>
         <div className="burgerMenu-container">
           <div className="App" id="outer-container">
             <BurgerMenu

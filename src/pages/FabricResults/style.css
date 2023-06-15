@@ -1,3 +1,7 @@
+.result__header {
+  max-width: 80%;
+}
+
 .result__image {
   width: 50px;
   height: 50px;
@@ -7,9 +11,38 @@
   right: 5px;
 }
 
-.form_container {
+.result_container {
   position: relative;
 }
+
+.result__header {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.result__headline {
+  text-align: left;
+  padding: 0px;
+}
+
+.result__icon--clothes {
+  width: 80px;
+  height: 80px;
+  fill: var(--c-lpink);
+}
+
+.result__icon--maintanance {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+ul {
+  margin-left: 1.5rem;
+}
+
 
 .result__text {
   margin-bottom: 2rem;
@@ -27,7 +60,6 @@
     position: absolute;
     top: 20px;
     right: 150px;
-
   }
 
 

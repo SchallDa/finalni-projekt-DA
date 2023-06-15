@@ -1,8 +1,8 @@
-import React from "react";
-import "./style.css";
-import { useParams } from "react-router-dom";
-import { Clothes } from "../../consts";
-import { Link } from "react-router-dom";
+import React from 'react';
+import './style.css';
+import { useParams } from 'react-router-dom';
+import { Clothes } from '../../consts';
+import { Link } from 'react-router-dom';
 
 export const FabricResults = () => {
   const { uniqueID } = useParams();
@@ -19,15 +19,15 @@ export const FabricResults = () => {
   } = Clothes[uniqueID];
 
   return (
-    <div className="form_container">
-      <div className="form__header">
+    <div className="result_container">
+      <div className="result__header">
         <img
           src={`/img/${icon}.svg`}
           alt="clothes_icon"
-          className="form__image form__image--pink"
+          className="result__icon--clothes"
         />
 
-        <h2 className="form__headline">{header}</h2>
+        <h2 className="result__headline">{header}</h2>
       </div>
 
       {/* Potřeba napojit linky na stránku s konkrétním materiálem */}
@@ -45,25 +45,26 @@ export const FabricResults = () => {
       <p className="result__text">{cons}</p>
       <h3 className="result__question">Údržba</h3>
       {/* spodní řádek připraven pro pole ikon */}
+
       <div className="result__text">
-        {" "}
+        {' '}
         {maintenance.map((mIcons) => (
           <img
             key={mIcons}
             src={`/img/${mIcons}.svg`}
             alt="care_icons"
-            className="form__image"
+            className="result__icon--maintanance"
           />
         ))}
         {maintenanceLegend.map((mLegends) => (
-          <div 
-          key={mLegends}
-          className="result__legend">{`${mLegends}`}</div>
+          <ul>
+            <li key={mLegends} className="result__legend">{`${mLegends}`}</li>
+          </ul>
         ))}
       </div>
+
       <h3 className="result__question">Udržitelnost</h3>
       <p>{eco}</p>
-      {/* Tyno, ty divy, p a celkově styly, jsou tam jen provizorne, abych ty propsy do něčeho obalila. Měň to a upravuje dle libosti */}
 
       <Link className="button button-form" to="/vyhledat-odev">
         Zpět
