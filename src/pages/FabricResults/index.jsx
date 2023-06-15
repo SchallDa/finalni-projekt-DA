@@ -12,7 +12,7 @@ export const FabricResults = () => {
     fiberLink,
     pros,
     cons,
-    maintanance,
+    maintenance,
     maintenanceLegend,
     eco,
   } = Clothes[uniqueID];
@@ -46,7 +46,7 @@ export const FabricResults = () => {
       {/* spodní řádek připraven pro pole ikon */}
       <div className="result__text">
         {" "}
-        {maintanance.map((mIcons) => (
+        {maintenance.map((mIcons) => (
           <img
             key={mIcons}
             src={`/img/${mIcons}.svg`}

@@ -141,13 +141,18 @@ export const Clothes = {
     fiberLink: "wool",
     pros: "Vlna je skvělým materiálem pro zimní oblečení. Má výborné termoizolační vlastnosti, odvádí vlhkost, nemačká se a navíc hřeje i za mokra.",
     cons: "Vlněné kabáty jsou relativně drahé na pořízení i údržbu. Je nutné je chránit před molem šatním a čistit je jen v čistírně. ",
-    maintanance: [
+    maintenance: [
       "do-not-bleach",
       "except-trichloroethylene",
       "do-not-wash",
       "do-not-tumble-dry",
     ],
-    maintenanceLegend: ["nebělit", "čištění pouze tetrachlorethylenem", "neprat", "nesušit v sušičce"],
+    maintenanceLegend: [
+      "nebělit",
+      "čištění pouze tetrachlorethylenem",
+      "neprat",
+      "nesušit v sušičce",
+    ],
     eco: "Produkce vlněných vláken je poměrně kontroverzní. Ovce jsou ideální pro spásání louk, jejich přílišná aktivita ale může vést k nevratnému poškození místa a erozi půdy. Kvalita života ovcí se rovněž může výrazně lišit. ",
   },
 
@@ -158,7 +163,7 @@ export const Clothes = {
     fiberLink: "synthetics",
     pros: "Syntetické materiály jsou relativně levnými a představují alternativu k dražším látkám. Umělá vlákna lze vyprodukovat v barevných odstínech, které nejsou pro přírodní materiály možné.",
     cons: "Oděvy s vysokým podílem syntetických vláken jsou velmi málo prodyšné, nositel se v nich brzy zapotí, což často doprovází i nelibý óder. ",
-    maintanance: ["iron-medium-temperature"],
+    maintenance: ["iron-medium-temperature"],
     maintenanceLegend: ["žehlit na teplotu do 150°C"],
     eco: "Výroba syntetických materiálů je energeticky velmi náročná. Při jejich praní navíc dochází k uvolňování nerozložitelných mikrovláken, které mají negativní dopady na lidské zdraví i ekosystém.",
   },
@@ -169,13 +174,18 @@ export const Clothes = {
     fiberLink: "wool",
     pros: "Vlna je skvělým materiálem pro obleky. Má výborné termoizolační vlastnosti, odvádí vlhkost, nemačká se, dobře odolává otěrům na namáhaných místech  a navíc hřeje i za mokra.",
     cons: "Vlněné obleky jsou relativně drahé na pořízení i údržbu. Je nutné je chránit před molem šatním a čistit  jen v čistírně.",
-    maintanance: [
+    maintenance: [
       "do-not-bleach",
       "except-trichloroethylene",
       "do-not-wash",
       "do-not-tumble-dry",
     ],
-    maintenanceLegend: ["nebělit", "čištění pouze tetrachlorethylenem", "neprat", "nesušit v sušičce"],
+    maintenanceLegend: [
+      "nebělit",
+      "čištění pouze tetrachlorethylenem",
+      "neprat",
+      "nesušit v sušičce",
+    ],
     eco: "Produkce vlněných vláken je poměrně kontroverzní. Ovce jsou ideální pro spásání louk, jejich přílišná aktivita ale může vést k nevratnému poškození místa a erozi půdy. Kvalita života ovcí se rovněž může výrazně lišit.",
   },
   [CLOTHES_IDS.SYNTHETIC_SUIT]: {
@@ -185,12 +195,16 @@ export const Clothes = {
     fiberLink: "synthetics",
     pros: "Syntetické materiály jsou relativně levnými a představují alternativu k dražším látkám. Pokud se jedná o oblek, který bude využit jednou ročně, syntetický materiál není na škodu.",
     cons: "Oděvy s vysokým podílem syntetických vláken jsou velmi málo prodyšné, nositel se v nich brzy zapotí, což často doprovází i nelibý óder.",
-    maintanance: [
+    maintenance: [
       "wash-40-degrees",
       "tumble-dry-law-temperature",
       "iron-medium-temperature",
     ],
-    maintenanceLegend: ["prát na 40°C", "při nízké teplotě možno sušit v sušičce ", "žehlit na teplotu do 150°C"],
+    maintenanceLegend: [
+      "prát na 40°C",
+      "při nízké teplotě možno sušit v sušičce ",
+      "žehlit na teplotu do 150°C",
+    ],
     eco: "Výroba syntetických materiálů je energeticky velmi náročná. Při jejich praní navíc dochází k uvolňování nerozložitelných mikrovláken, které mají negativní dopady na lidské zdraví i ekosystém.",
   },
   [CLOTHES_IDS.COTTON_SUMMER_CLOTHES]: {
@@ -200,27 +214,35 @@ export const Clothes = {
     fiberLink: "cotton",
     pros: "Bavlna je jedním z vhodných materiálů pro letní oblečení. Je prodyšná a dobře odvádí pot.",
     cons: "Samotné bavlněné vlákno nemá nikterak speciální termoregulační vlastnosti. Jaké teplo v oděvu bude, lze ovlivnit třeba výběrem barvy. Světlé odstíny sluneční paprsky odrážejí, tmavé naopak pohlcují.",
-    maintanance: [
+    maintenance: [
       "iron-steam",
       "machine-wash-normal",
       "tumble-dry-law-temperature",
     ],
-    maintenanceLegend: ["při žehlení napařovat", "běžné praní", "při nízké teplotě možno sušit v sušičce"],
+    maintenanceLegend: [
+      "při žehlení napařovat",
+      "běžné praní",
+      "při nízké teplotě možno sušit v sušičce",
+    ],
     eco: "Produkce bavlny je velmi náročná na spotřebu vody, pesticidů, insekticidů i hnojiv. Palčivou otázkou jsou i životní podmínky pracovníků v bavlněném průmyslu. Vhodnější alternativou může být ekologická, či recyklovaná bavlna.",
   },
   [CLOTHES_IDS.LINNEN_SUMMER_CLOTHES]: {
     id: CLOTHES_IDS.LINNEN_SUMMER_CLOTHES,
     header: "Lněné letní oblečení",
-    icon: "linen",
-    fiberLink: "tady bude obrázkový proklik na materiály",
+    icon: "summer",
+    fiberLink: "linen",
     pros: "Lněné oblečení je studené na omak, což znamená že v létě příjemně chladí. Navíc skvěle odvádí pot. ",
     cons: "V porovnání s bavlněným oblečením je jednou z nevýhod vyšší pořizovací cena. To je dáno především menší nabídkou lněných oděvů. Další nevýhodou je nepoddajnost vlákna a oblečení je tak zapotřebí žehlit.",
-    maintanance: [
+    maintenance: [
       "iron-steam",
       "machine-wash-normal",
       "tumble-dry-law-temperature",
     ],
-    maintenanceLegend: ["při žehlení napařovat", "běžné praní","při nízké teplotě možno sušit v sušičce"],
+    maintenanceLegend: [
+      "při žehlení napařovat",
+      "běžné praní",
+      "při nízké teplotě možno sušit v sušičce",
+    ],
     eco: "Len je jedním z nejekologičtějších materiálu, z kterých je možné oděv ušít. Roste i na nepříliš úrodných místech, nepotřebuje zavlažovat a jeho zpracování je environmentálně nenáročné.",
   },
   [CLOTHES_IDS.COTTON_WORK_CLOTHES]: {
@@ -230,27 +252,35 @@ export const Clothes = {
     fiberLink: "cotton",
     pros: "Bavlněný oděv je ideální pro manuálně náročnou práci, neboť je prodyšný. Pokud práce obsahuje manipulaci s ohněm a například chemikáliemi, tak  bavlna, narozdíl od syntetiky, “pouze” shoří a nedojde ke “seškvaření” materiálu. Bavlněný oděv je tak v případě nehody ta lepší varianta. ",
     cons: "Bavlnu většinou není možné nabarvit na tak výrazné odstíny, které jsou technologicky možné jen u syntetických vláken",
-    maintanance: [
+    maintenance: [
       "iron-steam",
       "machine-wash-normal",
       "tumble-dry-law-temperature",
     ],
-    maintenanceLegend: ["při žehlení napařovat", "běžné praní","při nízké teplotě možno sušit v sušičce"],
+    maintenanceLegend: [
+      "při žehlení napařovat",
+      "běžné praní",
+      "při nízké teplotě možno sušit v sušičce",
+    ],
     eco: "Produkce bavlny je velmi náročná na spotřebu vody, pesticidů, insekticidů i hnojiv. Palčivou otázkou jsou i životní podmínky pracovníků v bavlněném průmyslu. Vhodnější alternativou může být ekologická, či recyklovaná bavlna.",
   },
   [CLOTHES_IDS.SYNTHETIC_WORK_CLOTHES]: {
     id: CLOTHES_IDS.SYNTHETIC_WORK_CLOTHES,
     header: "Syntetické pracovní oblečení",
-    icon: "synthetics",
-    fiberLink: "tady bude obrázkový proklik na materiály",
+    icon: "work",
+    fiberLink: "synthetics",
     pros: "Syntetické materiály jsou relativně levné a představují alternativu k dražším materiálům. Umělá vlákna je možné vyrobit v odstínech, které nejsou technologicky proveditelné u přírodních materiálů.",
     cons: 'Oděvy s vysokým podílem syntetických vláken jsou velmi málo prodyšné, rychle se v nich zpotíme, což často doprovází nelibý óder. Při kontaktu s ohněm a chemikáliemi u nich dochází ke "seškvaření", což může negativně ovlivnit případnou popáleninu na kůži.',
-    maintanance: [
+    maintenance: [
       "tumble-dry-law-temperature",
       "wash-40-degrees",
       "iron-medium-temperature",
     ],
-    maintenanceLegend: ["při nízké teplotě možno sušit v sušičce", "prát na 40°C", "žehlit na teplotu do 150°C" ],
+    maintenanceLegend: [
+      "při nízké teplotě možno sušit v sušičce",
+      "prát na 40°C",
+      "žehlit na teplotu do 150°C",
+    ],
     eco: "Výroba syntetických materiálů je energeticky velmi náročná. Při jejich praní navíc dochází k uvolňování nerozložitelných mikrovláken, které mají negativní dopady na lidské zdraví i ekosystém.",
   },
 };
