@@ -1,8 +1,8 @@
-import React from 'react';
-import { slide as Menu } from 'react-burger-menu';
-import { Link, Outlet } from 'react-router-dom';
-import './style.css';
-import { Layout } from '../../Layout';
+import React from "react";
+import { slide as Menu } from "react-burger-menu";
+import { Link, Outlet } from "react-router-dom";
+import "./style.css";
+import { Links } from "../../Links";
 
 export const BurgerMenu = () => {
   return (
@@ -11,7 +11,7 @@ export const BurgerMenu = () => {
     // zatím BM neumí odkazovat na jednotlivé stránky
     <>
       <Menu right>
-        <Layout />
+        <Links />
       </Menu>
       {/* <Outlet /> */}
     </>

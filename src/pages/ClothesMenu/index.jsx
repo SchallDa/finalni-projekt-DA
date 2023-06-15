@@ -79,7 +79,6 @@ export const ClothesMenu = () => {
           Zpět
         </Link>
       </div>
-      <Footer />
     </>
   );
 };

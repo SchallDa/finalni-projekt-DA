@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.css';
 import { BurgerMenu } from './BurgerMenu';
-import { Outlet } from 'react-router-dom';
 import { Navbar } from './Navbar';
 
 // zatím vše tvořeno pro "hlavní navigaci" jako ve Figmě (tj-Domů, O Projektu a Vyhledat oděv), další "vedlejší" pages (Materiály, jednotlivé materiály, výdledný materiál,..) ještě neřešeny
@@ -22,7 +21,6 @@ export const Header = () => {
         </div>
         <div className="navbar-container">
           <Navbar />
-          {/* <Outlet /> */}
         </div>
       </div>
     </>

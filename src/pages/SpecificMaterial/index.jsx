@@ -37,7 +37,7 @@ export const SpecificMaterial = () => {
           {detail.maintenance}
         </p>
 
-        <div class="button--flex">
+        <div className="button--flex">
           <Link className="button button--zpet" to="/materialy">
             Zpět
           </Link>
