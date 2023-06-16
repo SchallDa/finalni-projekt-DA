@@ -19,7 +19,7 @@ export const FabricResults = () => {
   } = Clothes[uniqueID];
 
   return (
-    <div className="result_container">
+    <div className=" container result_container">
       <div className="result__header">
         <img
           src={`/img/${icon}.svg`}

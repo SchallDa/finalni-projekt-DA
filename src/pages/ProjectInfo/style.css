@@ -1,21 +1,25 @@
+.project__intro {
+  text-align: center;
+  line-height: 120%;
+  padding-top: 1rem;
+}
+
+.project__image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  align-self: center;
+  margin: 1.5rem;
+}
+
 .project__container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-.project__intro {
-  text-align: center;
-
-  line-height: 120%;
-  padding-top: 1rem;
-}
-
-.project__intro--first {
-  padding-top: 2rem;
-}
-
-
 
 .project__button {
   background-color: var(--c-pink);
@@ -38,23 +42,4 @@
   background-color: var(--c-lgrey);
   color: var(--c-pink);
   font-weight: 700;
-}
-
-@media (min-width: 600px) {
-  .project__intro {
-    font-size: 20px;
-    max-width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 2rem;
-  }
-
-  .project__intro--first {
-    padding-top: 4rem;
-  }
-
-  .buttons {
-    flex-direction: row;
-    justify-content: space-between;
-  }
 }
