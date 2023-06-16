@@ -1,8 +1,8 @@
-import React from 'react';
-import './style.css';
-import { useParams } from 'react-router-dom';
-import { Clothes } from '../../consts';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./style.css";
+import { useParams } from "react-router-dom";
+import { Clothes } from "../../consts";
+import { Link } from "react-router-dom";
 
 export const FabricResults = () => {
   const { uniqueID } = useParams();
@@ -30,8 +30,9 @@ export const FabricResults = () => {
         <h2 className="result__headline">{header}</h2>
       </div>
 
-      <Link to={`${link}`} target="_blank">
+      <Link to={`${link}`}>
         <img
+          key={link}
           src={`/img/${fiberLink}.jpg`}
           className="result__image"
           alt="fiber_link_to_materials"
@@ -44,7 +45,7 @@ export const FabricResults = () => {
       <p className="result__text">{cons}</p>
       <h3 className="result__question">Údržba</h3>
       <div className="result__text">
-        {' '}
+        {" "}
         {maintenance.map((mIcons) => (
           <img
             key={mIcons}
@@ -53,11 +54,11 @@ export const FabricResults = () => {
             className="result__icon--maintanance"
           />
         ))}
-        {maintenanceLegend.map((mLegends) => (
-          <ul>
+        <ul>
+          {maintenanceLegend.map((mLegends) => (
             <li key={mLegends} className="result__legend">{`${mLegends}`}</li>
-          </ul>
-        ))}
+          ))}
+        </ul>
       </div>
 
       <h3 className="result__question">Udržitelnost</h3>
