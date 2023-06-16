@@ -30,7 +30,7 @@ export const FabricResults = () => {
         <h2 className="result__headline">{header}</h2>
       </div>
 
-      <Link to={`${link}`}>
+      <Link to={`${link}`} target="_blank">
         <img
           src={`/img/${fiberLink}.jpg`}
           className="result__image"
@@ -61,11 +61,13 @@ export const FabricResults = () => {
       </div>
 
       <h3 className="result__question">Udržitelnost</h3>
-      <p>{eco}</p>
+      <p className="result__bottom">{eco}</p>
 
-      <Link className="button button-form" to="/vyhledat-odev">
-        Zpět
-      </Link>
+      <div className="button--flex">
+        <Link className="button" to="/vyhledat-odev">
+          Zpět
+        </Link>
+      </div>
     </div>
   );
 };

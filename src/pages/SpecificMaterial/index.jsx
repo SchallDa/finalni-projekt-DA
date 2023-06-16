@@ -38,7 +38,7 @@ export const SpecificMaterial = () => {
         </div>
 
         <div className="button--flex">
-          <Link className="button button--zpet" to="/materialy">
+          <Link className="button" to="/materialy">
             Zpět
           </Link>
         </div>
