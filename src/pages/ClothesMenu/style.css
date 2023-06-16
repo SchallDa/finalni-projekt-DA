@@ -10,10 +10,6 @@
   margin-bottom: 1.5rem;
 }
 
-a {
-  text-decoration: none;
-}
-
 .clothesMenu__image {
   width: 100px;
   height: 100px;
@@ -26,7 +22,6 @@ a {
 .clothesMenu__image--pink {
   fill: var(--c-lpink);
 }
-
 
 .clothesMenu__item--pink:hover {
   fill: var(--c-white);
@@ -50,7 +45,6 @@ a {
 .clothesMenu__text--pink {
   color: var(--c-lpink);
 }
-
 
 .clothesMenu__text--white:hover {
   color: var(--c-lpink);

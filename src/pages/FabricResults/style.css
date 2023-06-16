@@ -1,4 +1,12 @@
+.container__result {
+  position: relative;
+}
+
 .result__header {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   max-width: 80%;
 }
 
@@ -11,16 +19,6 @@
   right: 5px;
 }
 
-.result_container {
-  position: relative;
-}
-
-.result__header {
-  display: flex;
-  align-items: center;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
 
 .result__headline {
   text-align: left;
@@ -42,7 +40,6 @@
 ul {
   margin-left: 1.5rem;
 }
-
 
 .result__text {
   margin-bottom: 2rem;

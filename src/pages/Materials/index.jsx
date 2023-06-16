@@ -31,7 +31,7 @@ export const Materials = () => {
             <img
               className="materials__image"
               src="./img/cotton.jpg"
-              alt="Vlna"
+              alt="Bavlna"
             />
             <p className="materials__text">Bavlna</p>
           </Link>
