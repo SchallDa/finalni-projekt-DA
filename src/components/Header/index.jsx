@@ -3,7 +3,6 @@ import './style.css';
 import { BurgerMenu } from './BurgerMenu';
 import { Navbar } from './Navbar';
 
-
 export const Header = () => {
   return (
     <>

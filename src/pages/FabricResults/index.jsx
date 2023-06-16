@@ -1,8 +1,8 @@
-import React from "react";
-import "./style.css";
-import { useParams } from "react-router-dom";
-import { Clothes } from "../../consts";
-import { Link } from "react-router-dom";
+import React from 'react';
+import './style.css';
+import { useParams } from 'react-router-dom';
+import { Clothes } from '../../consts';
+import { Link } from 'react-router-dom';
 
 export const FabricResults = () => {
   const { uniqueID } = useParams();
@@ -45,7 +45,7 @@ export const FabricResults = () => {
       <p className="result__text">{cons}</p>
       <h3 className="result__question">Údržba</h3>
       <div className="result__text">
-        {" "}
+        {' '}
         {maintenance.map((mIcons) => (
           <img
             key={mIcons}
@@ -64,7 +64,7 @@ export const FabricResults = () => {
       <h3 className="result__question">Udržitelnost</h3>
       <p className="result__bottom">{eco}</p>
 
-      <div className="button--flex">
+      <div className="button--center">
         <Link className="button" to="/vyhledat-odev">
           Zpět
         </Link>

@@ -1,21 +1,21 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
-import "./style.css";
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import './style.css';
 import {
   createBrowserRouter,
   RouterProvider,
   Route,
   Routes,
-} from "react-router-dom";
-import { ClothesMenu } from "./pages/ClothesMenu";
-import { ProjectInfo } from "./pages/ProjectInfo";
-import { ErrorPage } from "./pages/ErrorPage";
-import { HomePage } from "./pages/HomePage";
-import { Materials } from "./pages/Materials";
-import { SpecificMaterial } from "./pages/SpecificMaterial";
-import { App } from "./components/App";
-import { ClothesForm } from "./components/Forms/ClothesForm";
-import { FabricResults } from "./pages/FabricResults";
+} from 'react-router-dom';
+import { ClothesMenu } from './pages/ClothesMenu';
+import { ProjectInfo } from './pages/ProjectInfo';
+import { ErrorPage } from './pages/ErrorPage';
+import { HomePage } from './pages/HomePage';
+import { Materials } from './pages/Materials';
+import { SpecificMaterial } from './pages/SpecificMaterial';
+import { App } from './components/App';
+import { ClothesForm } from './components/Forms/ClothesForm';
+import { FabricResults } from './pages/FabricResults';
 
 //  export const App = () => {
 //   return (
@@ -28,44 +28,44 @@ import { FabricResults } from "./pages/FabricResults";
 // };
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
+        path: '/',
         element: <HomePage />,
       },
       {
-        path: "/o-projektu",
+        path: '/o-projektu',
         element: <ProjectInfo />,
       },
       {
-        path: "/vyhledat-odev/:ClothesFormId",
+        path: '/vyhledat-odev/:ClothesFormId',
         element: <ClothesForm />,
       },
       {
-        path: "/vyhledat-odev",
+        path: '/vyhledat-odev',
         element: <ClothesMenu />,
       },
       {
-        path: "/detail-odevu/:uniqueID",
+        path: '/detail-odevu/:uniqueID',
         element: <FabricResults />,
       },
 
       {
-        path: "/materialy",
+        path: '/materialy',
         element: <Materials />,
       },
 
       {
-        path: "/materialy/:MaterialId",
+        path: '/materialy/:MaterialId',
         element: <SpecificMaterial />,
       },
     ],
   },
 ]);
 
-createRoot(document.querySelector("#app")).render(
-  <RouterProvider router={router} />
+createRoot(document.querySelector('#app')).render(
+  <RouterProvider router={router} />,
 );

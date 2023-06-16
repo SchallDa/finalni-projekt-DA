@@ -52,7 +52,7 @@ export const Materials = () => {
           </Link>
         </div>
 
-        <div className="button--flex">
+        <div className="button--center">
           <Link className="button" to="/">
             Zpět
           </Link>

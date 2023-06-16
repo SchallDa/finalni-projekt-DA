@@ -40,7 +40,6 @@ h2 {
   color: var(--c-white);
 }
 
-/* mob.verze:  */
 #app {
   padding-right: 25px;
   padding-left: 25px;
@@ -54,6 +53,13 @@ h2 {
 }
 
 /* buttons */
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .button {
   background-color: var(--c-pink);
   color: var(--c-grey);
@@ -70,21 +76,12 @@ h2 {
   border-style: none;
 }
 
-
-.button--flex {
+.button--center {
   display: flex;
   justify-content: center;
 }
 
-/* Button */
-.buttons {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-/* desktop verze */
+/* desktop version */
 @media (min-width: 600px) {
   #app {
     max-width: 1000px;

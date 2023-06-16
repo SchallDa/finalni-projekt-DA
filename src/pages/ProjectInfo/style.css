@@ -25,7 +25,6 @@
   margin: 1.5rem;
 }
 
-/* desktop verze */
 @media (min-width: 600px) {
   .project__intro {
     font-size: 18px;

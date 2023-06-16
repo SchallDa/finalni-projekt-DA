@@ -8,7 +8,6 @@
     padding-top: 10px;
 }
 
-/* stylování BM, aby se objevil jen při mobilní verzi-FUNGUJE */
 .burgerMenu-container {
     display: none;
 }
@@ -19,7 +18,6 @@
     }
 }
 
-/* tady část pro PC verzi */
 .navbar-container {
     display: block;
 }
@@ -35,16 +33,8 @@
 }
 
 @media (min-width: 600px) {
-
     .header {
         display: flex;
         justify-content: space-between;
-        /* flex-direction: column;
-    align-items: center;
-    margin-top: 4rem; */
     }
-
-
-
-
 }
