@@ -1,10 +1,10 @@
 {
   "name": "react-starter-kit",
   "version": "1.0.0",
+  "homepage": "https://schallda.github.io/finalni-projekt-DA/index.html",
   "repository": {
     "url": "git+https://github.com/SchallDa/finalni-projekt-DA.git"
   },
-  "homepage": "https://schallda.github.io/finalni-projekt-DA/",
   "description": "Starter kit for React JavaScript project",
   "main": "index.js",
   "scripts": {
