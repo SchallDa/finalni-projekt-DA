@@ -10,13 +10,9 @@
   padding: 0px;
 }
 
-
-.form__image {
+.form__icon {
   width: 80px;
   height: 80px;
-}
-
-.form__image--pink {
   fill: var(--c-lpink);
 }
 
@@ -27,7 +23,6 @@
 .form__question {
   margin-bottom: 0.8rem;
 }
-
 
 .form__input {
   margin-left: 15px;
@@ -43,6 +38,6 @@ label {
   margin-left: 0.3rem;
 }
 
-.button-form {
+.button__form {
   margin-left: 0;
 }

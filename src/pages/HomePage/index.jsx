@@ -6,7 +6,7 @@ export const HomePage = () => {
   return (
     <>
       <div className="container container--main">
-        <img src="./img/wool.jpg" className="main__image"></img>
+        <img src="./img/wool_HP.jpg" className="main__image" alt="Vlna" />
         <p className="main__intro">
           Chceš omezit množství oblečení ve své skříni, ale nevíš jak na to?
           Pomůžeme ti.

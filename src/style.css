@@ -40,7 +40,6 @@ h2 {
   color: var(--c-white);
 }
 
-
 /* mob.verze:  */
 #app {
   padding-right: 25px;
@@ -54,21 +53,21 @@ h2 {
   margin-right: auto;
 }
 
-/* button */
+/* buttons */
 .button {
   background-color: var(--c-pink);
   color: var(--c-grey);
   text-decoration: none;
   border-radius: 50px;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   display: inline-block;
-  margin: 1.5rem;
+  margin: 1rem 1.5rem;
   line-height: 54px;
   text-align: center;
   min-width: 235px;
   padding: 0 15px;
   border-style: none;
-
 }
 
 
@@ -79,11 +78,10 @@ h2 {
 
 /* Button */
 .buttons {
-  margin-top: 4rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 /* desktop verze */

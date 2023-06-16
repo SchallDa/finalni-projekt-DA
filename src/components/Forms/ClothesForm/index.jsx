@@ -1,10 +1,10 @@
-import React from "react";
-import "./style.css";
-import { useForm } from "react-hook-form";
-import { useParams, useNavigate } from "react-router-dom";
-import { configs, getClothesId } from "../../../consts";
-import { trues } from "../../../helpers";
-import { Link } from "react-router-dom";
+import React from 'react';
+import './style.css';
+import { useForm } from 'react-hook-form';
+import { useParams, useNavigate } from 'react-router-dom';
+import { configs, getClothesId } from '../../../consts';
+import { trues } from '../../../helpers';
+import { Link } from 'react-router-dom';
 
 export const ClothesForm = () => {
   const { register, handleSubmit } = useForm();
@@ -23,7 +23,7 @@ export const ClothesForm = () => {
       <div className="form__header">
         <img
           src={`/img/${icon}.svg`}
-          className="form__image form__image--pink"
+          className="form__icon"
           alt="clothes_icon"
         />
 
@@ -60,9 +60,9 @@ export const ClothesForm = () => {
           );
         })}
 
-        <button className="button button-form">Vyhodnotit</button>
+        <button className="button button__form">Vyhodnotit</button>
 
-        <Link className="button button-form" to="/vyhledat-odev">
+        <Link className="button" to="/vyhledat-odev">
           Zpět
         </Link>
       </form>
