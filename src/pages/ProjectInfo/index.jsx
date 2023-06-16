@@ -6,7 +6,7 @@ export const ProjectInfo = () => {
   return (
     <>
       <div className="container container__project">
-        <img src="./img/linen_HP.jpg" className="project__image" alt="Len" />
+        <img src="./img/linen.jpg" className="project__image" alt="Len" />
         <p className="project__intro">
           Orientovat se v problematice <strong>udržitelné módy</strong> se může
           zdát obtížné. Omezit množství oděvů v šatníku můžeme pomocí kvalitních

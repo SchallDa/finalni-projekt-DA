@@ -20,7 +20,7 @@ export const Materials = () => {
             <img
               className="materials__image"
               margin-bottom="3px"
-              src="./img/wool_HP.jpg"
+              src="./img/wool.jpg"
               alt="Vlna"
             />
 
@@ -37,11 +37,7 @@ export const Materials = () => {
           </Link>
 
           <Link className="materials__item" to="len">
-            <img
-              className="materials__image"
-              src="./img/linen_HP.jpg"
-              alt="Len"
-            />
+            <img className="materials__image" src="./img/linen.jpg" alt="Len" />
 
             <p className="materials__text">Len</p>
           </Link>

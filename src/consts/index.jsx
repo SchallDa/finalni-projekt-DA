@@ -295,7 +295,7 @@ export const Clothes = {
 export const MaterialDetail = {
   [MATERIALS_IDS.WOOL]: {
     id: MATERIALS_IDS.WOOL,
-    icon: 'wool_HP',
+    icon: 'wool',
     header: 'Vlna',
     intro:
       'Vlna je jedním z nejstarších materiálu, ze kterého se oblečení začalo vyrábět. Může být z ovce, kašmírské kozy nebo velblouda. V běžných obchodech narazíme především na vlnu ovčí.',
@@ -325,7 +325,7 @@ export const MaterialDetail = {
 
   [MATERIALS_IDS.LINEN]: {
     id: MATERIALS_IDS.LINEN,
-    icon: 'linen_HP',
+    icon: 'linen',
     header: 'Len',
     intro:
       'Len je dnes přehlíženým materiálem. Ještě v minulém století byl u nás hojně pěstovaný a nebylo těžké sehnat z něho lokální výrobky. Nyní už se u nás  za účelem výroby vláken nepěstuje, můžeme si ale koupit výrobky z evropského lnu.',
