@@ -10,6 +10,7 @@
     padding: 10px 5px;
     color: var(--c-pink);
     text-decoration: none;
+    text-align: center;
   }
 
   nav a:hover {
