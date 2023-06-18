@@ -313,7 +313,7 @@ export const MaterialDetail = {
     icon: "cotton",
     header: "Bavlna",
     intro:
-      "V obchodech sice najdeme výrobky s nálepkou „udržitelná bavlna“. Náročnost pěstování je ale stále jejím velkým mínusem. ",
+      " Bavlna je jedním z nejrozšířenějších materiálů. Vyrábí se z ní trička, tepláky, džíny, košile i spodní prádlo.",
     prosHeader: "Výhody materiálu",
     pros: "Jde o jeden z nejuniverzálnějších a nejpohodlnějích materiálů. Je prodyšná, velmi dobře saje vodu a lze ji jednoduše barvit.",
     conHeader: "Nevýhody materiálu",
