@@ -62,7 +62,7 @@ export const ClothesForm = () => {
 
         <button className="button button__form">Vyhodnotit</button>
 
-        <Link className="button" to="/vyhledat-odev">
+        <Link className="button button__form" to="/vyhledat-odev">
           Zpět
         </Link>
       </form>

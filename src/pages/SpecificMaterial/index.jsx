@@ -36,12 +36,6 @@ export const SpecificMaterial = () => {
           <p className="material__intro__header">{detail.maintenanceHeader}</p>
           {detail.maintenance}
         </div>
-
-        <div className="button--center">
-          <Link className="button" to="/materialy">
-            Zpět
-          </Link>
-        </div>
       </div>
     </>
   );

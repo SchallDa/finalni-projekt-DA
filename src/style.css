@@ -82,7 +82,7 @@ h2 {
 }
 
 /* desktop version */
-@media (min-width: 600px) {
+@media (min-width: 720px) {
   #app {
     max-width: 1000px;
     margin-left: auto;
