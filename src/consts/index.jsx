@@ -72,17 +72,6 @@ export const configs = {
     icon: "work",
   },
 };
-// const truesCountFunction = ()=> {
-// // const trues ={
-// //     1: true,
-// //     2: false,
-// //     3: true
-// // };
-// console.log(Object.values(trues).filter(value=>value).length)
-// };
-
-// // vezme výsledky z formuláře a spočítá ano
-// console.log(truesCountFunction ());
 
 export const getClothesId = (id, trueCounts) => {
   switch (id) {
@@ -106,9 +95,7 @@ export const getClothesId = (id, trueCounts) => {
         ? CLOTHES_IDS.COTTON_WORK_CLOTHES
         : CLOTHES_IDS.SYNTHETIC_WORK_CLOTHES;
 
-    // case CLOTHS_TYPE_IDS.WORK_CLOTHES:
-    //     return formResults.manualLabor && formResults.hazard ? CLOTHES_IDS.COTTON_WORK_CLOTHES : CLOTHES_IDS.SYNTHETIC_WORK_CLOTHES
-    // takto by to ReadableByteStreamController, pokud by místo parametru trueCounts byl formResults
+  
     default:
       return null;
   }
@@ -256,7 +243,7 @@ export const Clothes = {
     icon: "work",
     fiberLink: "cotton",
     link: "/materialy/bavlna",
-    pros: "Bavlněný oděv je ideální pro manuálně náročnou práci, neboť je prodyšný. Pokud práce obsahuje manipulaci s ohněm a například chemikáliemi, tak  bavlna, narozdíl od syntetiky, “pouze” shoří a nedojde ke “seškvaření” materiálu. Bavlněný oděv je tak v případě nehody ta lepší varianta. ",
+    pros: "Bavlněný oděv je ideální pro manuálně náročnou práci, neboť je prodyšný. Pokud práce obsahuje manipulaci s ohněm a například i chemikáliemi, tak  bavlna, narozdíl od syntetiky, “pouze” shoří a nedojde ke “seškvaření” materiálu. Bavlněný oděv je tak v případě nehody ta lepší varianta. ",
     cons: "Bavlnu většinou není možné nabarvit na tak výrazné odstíny, které jsou technologicky možné jen u syntetických vláken",
     maintenance: [
       "iron-steam",
