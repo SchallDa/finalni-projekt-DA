@@ -350,6 +350,6 @@ export const MaterialDetail = {
     con: "Výrobci umělá vlákna neustále vyvíjí, aby se přizpůsobili požadavkům zákazníků. U jednotlivých druhů a generací vláken, se tak může zlepšit otěruvzdornost, elasticita a mnoho dalšího. Nevýhodou je ale špatná recyklovatelnost. Zatímco přírodní vlákna podléhají rychlému rozkladu, ta syntetická nikoli. Velkým problémem je také zamoření životního prostředí mikrovlákny, které se uvolňují například při praní.",
     maintenanceHeader: "Údržba",
     maintenance:
-      "Výrobci umělá vlákna neustále vyvíjí, aby se přizpůsobili požadavkům zákazníků. U jednotlivých druhů a generací vláken se tak může zlepšit otěruvzdornost, elasticita a mnoho dalšího. Nevýhodou je ale špatná recyklovatelnost. Zatímco přírodní vlákna podléhají rychlému rozkladu, ta syntetická nikoli. Velkým problémem je také zamoření životního prostředí mikrovlákny, které se uvolňují například při praní.",
+      "Rozmanitá je rovněž údržba oděvů ze syntetických materiálů. Některé mají vysokou otěruvzdornost a málo se žmolkují, jiné nízkou. Pokud má oděv dlouho vydržet, měl by se uživatel řídit cedulkou s doporučenou údržbou. ",
   },
 };
