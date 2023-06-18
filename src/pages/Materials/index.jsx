@@ -8,7 +8,7 @@ export const Materials = () => {
       <div>
         <h2>Materiály</h2>
         <p className="materials__intro">
-          V oděvním světě najdeme spoustu druhů vláken s různými vlastnostmi.
+          V oděvním světě existuje spousta druhů vláken s různými vlastnostmi.
         </p>
 
         <p className="materials__intro materials__intro--second">

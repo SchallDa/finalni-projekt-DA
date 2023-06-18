@@ -9,8 +9,8 @@ export const ProjectInfo = () => {
         <img src="./img/linen.jpg" className="project__image" alt="Len" />
         <p className="project__intro">
           Orientovat se v problematice <strong>udržitelné módy</strong> se může
-          zdát obtížné. Omezit množství oděvů v šatníku můžeme pomocí kvalitních
-          materiálů a správnou péčí o ně.
+          zdát obtížné. Omezit množství oděvů v šatníku můžeme například pomocí
+          kvalitních materiálů a správnou péčí o ně.
         </p>
 
         <p className="project__intro">

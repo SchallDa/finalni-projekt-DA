@@ -8,7 +8,7 @@ export const HomePage = () => {
       <div className="container container--main">
         <img src="./img/wool.jpg" className="main__image" alt="Vlna" />
         <p className="main__intro">
-          Chceš omezit množství oblečení ve své skříni, ale nevíš jak na to?
+          Chceš omezit množství oblečení ve skříni, ale nevíš jak na to?
           Pomůžeme ti.
         </p>
 
