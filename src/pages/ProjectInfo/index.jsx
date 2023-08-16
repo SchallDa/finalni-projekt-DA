@@ -21,7 +21,7 @@ export const ProjectInfo = () => {
         <p className="project__intro project__intro--center">
           Vyber si typ oděvu a my ti pomocí několika otázek pomůžeme najít
           nejvhodnější materiál. Možná potom zjistíš, že jeden vlněný kabát
-          stačí od podzimu do jara.
+          stačí od podzimu až do jara.
         </p>
 
         <p className="project__intro">
