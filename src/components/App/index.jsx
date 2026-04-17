@@ -10,6 +10,7 @@ const GA_ID = "G-XK10LZ90XX";
 export const App = () => {
   useEffect(() => {
     ReactGA.initialize(GA_ID);
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
   }, []);
   return (
     <>
